@@ -5,6 +5,9 @@ I made this fork because the website is down to never return, so i decided to fo
 
 This was made with c# and avalonia
 
+# ALWAYS MAKE SURE TO SCROLL DOWN TO MAKE SURE YOU'RE NOT MISSING ANYTHING
+What i mean by this, is when you're reading a lesson, scroll down to make sure you're not missing any parts of the lesson!
+
 
 # How To Run The Program
 If you're on binbows, open the desktop-app folder, then open the Program folder, then look for the .exe file and execute it!
