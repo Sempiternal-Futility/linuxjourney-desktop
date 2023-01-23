@@ -305,11 +305,11 @@
           <Button Name="lessonOneHundredSeventyFourButton" Click="lessonOneHundredSeventyFourButton_Click" IsVisible="false" Content="Command arp" Background="#181A1B" Foreground="#40BF91" Height="30" />
 
           <!-- Troubleshooting Lessons -->
-          <Button Name="lessonOneHundredSeventyFiveButton" IsVisible="false" Content="Icmp" Background="#181A1B" Foreground="#40BF91" Height="30" />
-          <Button Name="lessonOneHundredSeventySixButton" IsVisible="false" Content="Ping" Background="#181A1B" Foreground="#40BF91" Height="30" />
-          <Button Name="lessonOneHundredSeventySevenButton" IsVisible="false" Content="Traceroute" Background="#181A1B" Foreground="#40BF91" Height="30" />
-          <Button Name="lessonOneHundredSeventyEightButton" IsVisible="false" Content="Netstat" Background="#181A1B" Foreground="#40BF91" Height="30" />
-          <Button Name="lessonOneHundredSeventyNineButton" IsVisible="false" Content="Packet Analysis" Background="#181A1B" Foreground="#40BF91" Height="30" />
+          <Button Name="lessonOneHundredSeventyFiveButton" Click="lessonOneHundredSeventyFiveButton_Click" IsVisible="false" Content="Icmp" Background="#181A1B" Foreground="#40BF91" Height="30" />
+          <Button Name="lessonOneHundredSeventySixButton" Click="lessonOneHundredSeventySixButton_Click" IsVisible="false" Content="Ping" Background="#181A1B" Foreground="#40BF91" Height="30" />
+          <Button Name="lessonOneHundredSeventySevenButton" Click="lessonOneHundredSeventySevenButton_Click" IsVisible="false" Content="Traceroute" Background="#181A1B" Foreground="#40BF91" Height="30" />
+          <Button Name="lessonOneHundredSeventyEightButton" Click="lessonOneHundredSeventyEightButton_Click" IsVisible="false" Content="Netstat" Background="#181A1B" Foreground="#40BF91" Height="30" />
+          <Button Name="lessonOneHundredSeventyNineButton" Click="lessonOneHundredSeventyNineButton_Click" IsVisible="false" Content="Packet Analysis" Background="#181A1B" Foreground="#40BF91" Height="30" />
 
           <!-- DNS Lessons -->
           <Button Name="lessonOneHundredEightyButton" IsVisible="false" Content="What is DNS?" Background="#181A1B" Foreground="#40BF91" Height="30" />
