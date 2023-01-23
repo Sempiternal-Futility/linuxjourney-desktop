@@ -280,13 +280,13 @@
           <Button Name="lessonOneHundredFiftyFiveButton" Click="lessonOneHundredFiftyFiveButton_Click" IsVisible="false" Content="Dhcp Overview" Background="#181A1B" Foreground="#40BF91" Height="30" />
 
           <!-- Subnetting Lessons -->
-          <Button Name="lessonOneHundredFiftySixButton" IsVisible="false" Content="Ipv4" Background="#181A1B" Foreground="#40BF91" Height="30" />
-          <Button Name="lessonOneHundredFiftySevenButton" IsVisible="false" Content="Subnets" Background="#181A1B" Foreground="#40BF91" Height="30" />
-          <Button Name="lessonOneHundredFiftyEightButton" IsVisible="false" Content="Subnet Math" Background="#181A1B" Foreground="#40BF91" Height="30" />
-          <Button Name="lessonOneHundredFiftyNineButton" IsVisible="false" Content="Subnetting Cheats" Background="#181A1B" Foreground="#40BF91" Height="30" />
-          <Button Name="lessonOneHundredSixtyButton" IsVisible="false" Content="Classless Interdomain Routing (CIDR)" Background="#181A1B" Foreground="#40BF91" Height="30" />
-          <Button Name="lessonOneHundredSixtyOneButton" IsVisible="false" Content="Network Adress Translation (NAT)" Background="#181A1B" Foreground="#40BF91" Height="30" />
-          <Button Name="lessonOneHundredSixtyTwoButton" IsVisible="false" Content="Ipv6" Background="#181A1B" Foreground="#40BF91" Height="30" />
+          <Button Name="lessonOneHundredFiftySixButton" Click="lessonOneHundredFiftySixButton_Click" IsVisible="false" Content="Ipv4" Background="#181A1B" Foreground="#40BF91" Height="30" />
+          <Button Name="lessonOneHundredFiftySevenButton" Click="lessonOneHundredFiftySevenButton_Click" IsVisible="false" Content="Subnets" Background="#181A1B" Foreground="#40BF91" Height="30" />
+          <Button Name="lessonOneHundredFiftyEightButton" Click="lessonOneHundredFiftyEightButton_Click" IsVisible="false" Content="Subnet Math" Background="#181A1B" Foreground="#40BF91" Height="30" />
+          <Button Name="lessonOneHundredFiftyNineButton" Click="lessonOneHundredFiftyNineButton_Click" IsVisible="false" Content="Subnetting Cheats" Background="#181A1B" Foreground="#40BF91" Height="30" />
+          <Button Name="lessonOneHundredSixtyButton" Click="lessonOneHundredSixtyButton_Click" IsVisible="false" Content="Classless Interdomain Routing (CIDR)" Background="#181A1B" Foreground="#40BF91" Height="30" />
+          <Button Name="lessonOneHundredSixtyOneButton" Click="lessonOneHundredSixtyOneButton_Click" IsVisible="false" Content="Network Adress Translation (NAT)" Background="#181A1B" Foreground="#40BF91" Height="30" />
+          <Button Name="lessonOneHundredSixtyTwoButton" Click="lessonOneHundredSixtyTwoButton_Click" IsVisible="false" Content="Ipv6" Background="#181A1B" Foreground="#40BF91" Height="30" />
 
           <!-- Routing Lessons -->
           <Button Name="lessonOneHundredSixtyThreeButton" IsVisible="false" Content="What Is A Router?" Background="#181A1B" Foreground="#40BF91" Height="30" />
