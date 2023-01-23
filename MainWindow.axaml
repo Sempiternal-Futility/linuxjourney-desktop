@@ -312,12 +312,12 @@
           <Button Name="lessonOneHundredSeventyNineButton" Click="lessonOneHundredSeventyNineButton_Click" IsVisible="false" Content="Packet Analysis" Background="#181A1B" Foreground="#40BF91" Height="30" />
 
           <!-- DNS Lessons -->
-          <Button Name="lessonOneHundredEightyButton" IsVisible="false" Content="What is DNS?" Background="#181A1B" Foreground="#40BF91" Height="30" />
-          <Button Name="lessonOneHundredEightyOneButton" IsVisible="false" Content="DNS Components" Background="#181A1B" Foreground="#40BF91" Height="30" />
-          <Button Name="lessonOneHundredEightyTwoButton" IsVisible="false" Content="DNS Process" Background="#181A1B" Foreground="#40BF91" Height="30" />
-          <Button Name="lessonOneHundredEightyThreeButton" IsVisible="false" Content="Etc hosts" Background="#181A1B" Foreground="#40BF91" Height="30" />
-          <Button Name="lessonOneHundredEightyFourButton" IsVisible="false" Content="DNS Setup" Background="#181A1B" Foreground="#40BF91" Height="30" />
-          <Button Name="lessonOneHundredEightyFiveButton" IsVisible="false" Content="DNS Tools" Background="#181A1B" Foreground="#40BF91" Height="30" />
+          <Button Name="lessonOneHundredEightyButton" Click="lessonOneHundredEightyButton_Click" IsVisible="false" Content="What is DNS?" Background="#181A1B" Foreground="#40BF91" Height="30" />
+          <Button Name="lessonOneHundredEightyOneButton" Click="lessonOneHundredEightyOneButton_Click" IsVisible="false" Content="DNS Components" Background="#181A1B" Foreground="#40BF91" Height="30" />
+          <Button Name="lessonOneHundredEightyTwoButton" Click="lessonOneHundredEightyTwoButton_Click" IsVisible="false" Content="DNS Process" Background="#181A1B" Foreground="#40BF91" Height="30" />
+          <Button Name="lessonOneHundredEightyThreeButton" Click="lessonOneHundredEightyThreeButton_Click" IsVisible="false" Content="Etc hosts" Background="#181A1B" Foreground="#40BF91" Height="30" />
+          <Button Name="lessonOneHundredEightyFourButton" Click="lessonOneHundredEightyFourButton_Click" IsVisible="false" Content="DNS Setup" Background="#181A1B" Foreground="#40BF91" Height="30" />
+          <Button Name="lessonOneHundredEightyFiveButton" Click="lessonOneHundredEightyFiveButton_Click" IsVisible="false" Content="DNS Tools" Background="#181A1B" Foreground="#40BF91" Height="30" />
 
 
 
