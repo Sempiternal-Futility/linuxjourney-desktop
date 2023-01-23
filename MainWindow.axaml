@@ -289,13 +289,13 @@
           <Button Name="lessonOneHundredSixtyTwoButton" Click="lessonOneHundredSixtyTwoButton_Click" IsVisible="false" Content="Ipv6" Background="#181A1B" Foreground="#40BF91" Height="30" />
 
           <!-- Routing Lessons -->
-          <Button Name="lessonOneHundredSixtyThreeButton" IsVisible="false" Content="What Is A Router?" Background="#181A1B" Foreground="#40BF91" Height="30" />
-          <Button Name="lessonOneHundredSixtyFourButton" IsVisible="false" Content="Routing Table" Background="#181A1B" Foreground="#40BF91" Height="30" />
-          <Button Name="lessonOneHundredSixtyFiveButton" IsVisible="false" Content="Path Of A Packet" Background="#181A1B" Foreground="#40BF91" Height="30" />
-          <Button Name="lessonOneHundredSixtySixButton" IsVisible="false" Content="Routing Protocols" Background="#181A1B" Foreground="#40BF91" Height="30" />
-          <Button Name="lessonOneHundredSixtySevenButton" IsVisible="false" Content="Distance Vector Protocols" Background="#181A1B" Foreground="#40BF91" Height="30" />
-          <Button Name="lessonOneHundredSixtyEightButton" IsVisible="false" Content="Link State Protocols" Background="#181A1B" Foreground="#40BF91" Height="30" />
-          <Button Name="lessonOneHundredSixtyNineButton" IsVisible="false" Content="Border Gateway Protocol (BGP)" Background="#181A1B" Foreground="#40BF91" Height="30" />
+          <Button Name="lessonOneHundredSixtyThreeButton" Click="lessonOneHundredSixtyThreeButton_Click" IsVisible="false" Content="What Is A Router?" Background="#181A1B" Foreground="#40BF91" Height="30" />
+          <Button Name="lessonOneHundredSixtyFourButton" Click="lessonOneHundredSixtyFourButton_Click" IsVisible="false" Content="Routing Table" Background="#181A1B" Foreground="#40BF91" Height="30" />
+          <Button Name="lessonOneHundredSixtyFiveButton" Click="lessonOneHundredSixtyFiveButton_Click" IsVisible="false" Content="Path Of A Packet" Background="#181A1B" Foreground="#40BF91" Height="30" />
+          <Button Name="lessonOneHundredSixtySixButton" Click="lessonOneHundredSixtySixButton_Click" IsVisible="false" Content="Routing Protocols" Background="#181A1B" Foreground="#40BF91" Height="30" />
+          <Button Name="lessonOneHundredSixtySevenButton" Click="lessonOneHundredSixtySevenButton_Click" IsVisible="false" Content="Distance Vector Protocols" Background="#181A1B" Foreground="#40BF91" Height="30" />
+          <Button Name="lessonOneHundredSixtyEightButton" Click="lessonOneHundredSixtyEightButton_Click" IsVisible="false" Content="Link State Protocols" Background="#181A1B" Foreground="#40BF91" Height="30" />
+          <Button Name="lessonOneHundredSixtyNineButton" Click="lessonOneHundredSixtyNineButton_Click" IsVisible="false" Content="Border Gateway Protocol (BGP)" Background="#181A1B" Foreground="#40BF91" Height="30" />
 
           <!-- Network Config Lessons -->
           <Button Name="lessonOneHundredSeventyButton" IsVisible="false" Content="Network Interfaces" Background="#181A1B" Foreground="#40BF91" Height="30" />
