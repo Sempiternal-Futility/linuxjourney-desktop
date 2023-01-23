@@ -269,15 +269,15 @@
           <Button Name="lessonOneHundredFortySixButton" Click="lessonOneHundredFortySixButton_Click" IsVisible="false" Content="Samba" Background="#181A1B" Foreground="#40BF91" Height="30" />
 
           <!-- Network Basics Lessons -->
-          <Button Name="lessonOneHundredFortySevenButton" IsVisible="false" Content="Network Basics" Background="#181A1B" Foreground="#40BF91" Height="30" />
-          <Button Name="lessonOneHundredFortyEightButton" IsVisible="false" Content="Osi Model" Background="#181A1B" Foreground="#40BF91" Height="30" />
-          <Button Name="lessonOneHundredFortyNineButton" IsVisible="false" Content="Tcp/Ip Model" Background="#181A1B" Foreground="#40BF91" Height="30" />
-          <Button Name="lessonOneHundredFiftyButton" IsVisible="false" Content="Network Addressing" Background="#181A1B" Foreground="#40BF91" Height="30" />
-          <Button Name="lessonOneHundredFiftyOneButton" IsVisible="false" Content="Application Layer" Background="#181A1B" Foreground="#40BF91" Height="30" />
-          <Button Name="lessonOneHundredFiftyTwoButton" IsVisible="false" Content="Transport Layer" Background="#181A1B" Foreground="#40BF91" Height="30" />
-          <Button Name="lessonOneHundredFiftyThreeButton" IsVisible="false" Content="Network Layer" Background="#181A1B" Foreground="#40BF91" Height="30" />
-          <Button Name="lessonOneHundredFiftyFourButton" IsVisible="false" Content="Link Layer" Background="#181A1B" Foreground="#40BF91" Height="30" />
-          <Button Name="lessonOneHundredFiftyFiveButton" IsVisible="false" Content="Dhcp Overview" Background="#181A1B" Foreground="#40BF91" Height="30" />
+          <Button Name="lessonOneHundredFortySevenButton" Click="lessonOneHundredFortySevenButton_Click" IsVisible="false" Content="Network Basics" Background="#181A1B" Foreground="#40BF91" Height="30" />
+          <Button Name="lessonOneHundredFortyEightButton" Click="lessonOneHundredFortyEightButton_Click" IsVisible="false" Content="Osi Model" Background="#181A1B" Foreground="#40BF91" Height="30" />
+          <Button Name="lessonOneHundredFortyNineButton" Click="lessonOneHundredFortyNineButton_Click" IsVisible="false" Content="Tcp/Ip Model" Background="#181A1B" Foreground="#40BF91" Height="30" />
+          <Button Name="lessonOneHundredFiftyButton" Click="lessonOneHundredFiftyButton_Click" IsVisible="false" Content="Network Addressing" Background="#181A1B" Foreground="#40BF91" Height="30" />
+          <Button Name="lessonOneHundredFiftyOneButton" Click="lessonOneHundredFiftyOneButton_Click" IsVisible="false" Content="Application Layer" Background="#181A1B" Foreground="#40BF91" Height="30" />
+          <Button Name="lessonOneHundredFiftyTwoButton" Click="lessonOneHundredFiftyTwoButton_Click" IsVisible="false" Content="Transport Layer" Background="#181A1B" Foreground="#40BF91" Height="30" />
+          <Button Name="lessonOneHundredFiftyThreeButton" Click="lessonOneHundredFiftyThreeButton_Click" IsVisible="false" Content="Network Layer" Background="#181A1B" Foreground="#40BF91" Height="30" />
+          <Button Name="lessonOneHundredFiftyFourButton" Click="lessonOneHundredFiftyFourButton_Click" IsVisible="false" Content="Link Layer" Background="#181A1B" Foreground="#40BF91" Height="30" />
+          <Button Name="lessonOneHundredFiftyFiveButton" Click="lessonOneHundredFiftyFiveButton_Click" IsVisible="false" Content="Dhcp Overview" Background="#181A1B" Foreground="#40BF91" Height="30" />
 
           <!-- Subnetting Lessons -->
           <Button Name="lessonOneHundredFiftySixButton" IsVisible="false" Content="Ipv4" Background="#181A1B" Foreground="#40BF91" Height="30" />
