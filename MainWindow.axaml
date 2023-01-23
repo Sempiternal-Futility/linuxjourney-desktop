@@ -298,11 +298,11 @@
           <Button Name="lessonOneHundredSixtyNineButton" Click="lessonOneHundredSixtyNineButton_Click" IsVisible="false" Content="Border Gateway Protocol (BGP)" Background="#181A1B" Foreground="#40BF91" Height="30" />
 
           <!-- Network Config Lessons -->
-          <Button Name="lessonOneHundredSeventyButton" IsVisible="false" Content="Network Interfaces" Background="#181A1B" Foreground="#40BF91" Height="30" />
-          <Button Name="lessonOneHundredSeventyOneButton" IsVisible="false" Content="Route" Background="#181A1B" Foreground="#40BF91" Height="30" />
-          <Button Name="lessonOneHundredSeventyTwoButton" IsVisible="false" Content="Dhclient" Background="#181A1B" Foreground="#40BF91" Height="30" />
-          <Button Name="lessonOneHundredSeventyThreeButton" IsVisible="false" Content="Network Manager" Background="#181A1B" Foreground="#40BF91" Height="30" />
-          <Button Name="lessonOneHundredSeventyFourButton" IsVisible="false" Content="Command arp" Background="#181A1B" Foreground="#40BF91" Height="30" />
+          <Button Name="lessonOneHundredSeventyButton" Click="lessonOneHundredSeventyButton_Click" IsVisible="false" Content="Network Interfaces" Background="#181A1B" Foreground="#40BF91" Height="30" />
+          <Button Name="lessonOneHundredSeventyOneButton" Click="lessonOneHundredSeventyOneButton_Click" IsVisible="false" Content="Route" Background="#181A1B" Foreground="#40BF91" Height="30" />
+          <Button Name="lessonOneHundredSeventyTwoButton" Click="lessonOneHundredSeventyTwoButton_Click" IsVisible="false" Content="Dhclient" Background="#181A1B" Foreground="#40BF91" Height="30" />
+          <Button Name="lessonOneHundredSeventyThreeButton" Click="lessonOneHundredSeventyThreeButton_Click" IsVisible="false" Content="Network Manager" Background="#181A1B" Foreground="#40BF91" Height="30" />
+          <Button Name="lessonOneHundredSeventyFourButton" Click="lessonOneHundredSeventyFourButton_Click" IsVisible="false" Content="Command arp" Background="#181A1B" Foreground="#40BF91" Height="30" />
 
           <!-- Troubleshooting Lessons -->
           <Button Name="lessonOneHundredSeventyFiveButton" IsVisible="false" Content="Icmp" Background="#181A1B" Foreground="#40BF91" Height="30" />
