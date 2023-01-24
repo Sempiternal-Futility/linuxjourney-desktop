@@ -1,0 +1,332 @@
+<Window xmlns="https://github.com/avaloniaui"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
+        x:Class="linuxjourney_desktop.MainWindow"
+        Background="#181A1B"
+        Title="linuxjourney_desktop">
+
+
+      <ScrollViewer  HorizontalScrollBarVisibility="Auto" VerticalScrollBarVisibility="Auto">
+       <StackPanel HorizontalAlignment="Center" VerticalAlignment="Center" >
+
+         <!-- Button Style -->
+         <StackPanel.Styles>
+           <Style Selector="Button:pointerover /template/ ContentPresenter" >
+             <Setter Property="Background" Value="#40BF91" />
+           </Style>
+         </StackPanel.Styles>
+
+          <Label Name="coursesLabel" Content="Courses" IsVisible="false" Background="#181A1B" Foreground="#40BF91" FontSize="55" Margin="0, -200, 0, 0"/>
+          <Label Name="lessonsLabel" Content="Lessons" IsVisible="false" Background="#181A1B" Foreground="#40BF91" FontSize="55" Margin="-23, -185, 0, 0"/>
+
+
+          <Button Name="goBackArrow" IsVisible="false" Content="BACK" Click="goBackArrow_Click" Background="#181A1B" Foreground="#40BF91" Margin="-150, 0, 250, 0" />
+
+
+
+          <!-- This Label Is Used To Display The Text From Each Lesson -->
+          <Label Name="lessonContent" IsVisible="false" Background="#181A1B" Foreground="#40BF91" />
+
+          <!-- GrassHopper Section -->
+          <Button Name="grasshopperButton" Click="grasshopperButton_Click" Content="GRASSHOPPER" Background="#181A1B" Foreground="#40BF91" FontSize="75" />
+
+                    
+          <Button Name="courseOneButton" Click="courseOneButton_Click" IsVisible="false" Content="Getting Started" Background="#181A1B" Foreground="#40BF91" Height="35" FontSize="18" Margin="-50, 0, 0, 0" />
+          <Button Name="courseTwoButton" Click="courseTwoButton_Click" IsVisible="false" Content="Command-Line" Background="#181A1B" Foreground="#40BF91" Height="35" FontSize="18" Margin="-50, 0, 0, 0" />
+          <Button Name="courseThreeButton" Click="courseThreeButton_Click" IsVisible="false" Content="Text-Fu" Background="#181A1B" Foreground="#40BF91" Height="35" FontSize="18" Margin="-50, 0, 0, 0" />
+          <Button Name="courseFourButton" Click="courseFourButton_Click" IsVisible="false" Content="Advanced Text-Fu" Background="#181A1B" Foreground="#40BF91" Height="35" FontSize="18" Margin="-50, 0, 0, 0" />
+          <Button Name="courseFiveButton" Click="courseFiveButton_Click" IsVisible="false" Content="User Management" Background="#181A1B" Foreground="#40BF91" Height="35" FontSize="18" Margin="140, -245, 0, 0" />
+          <Button Name="courseSixButton" Click="courseSixButton_Click" IsVisible="false" Content="Permissions" Background="#181A1B" Foreground="#40BF91" Height="35" FontSize="18" Margin="140, -175, 0, 0" />
+          <Button Name="courseSevenButton" Click="courseSevenButton_Click" IsVisible="false" Content="Process" Background="#181A1B" Foreground="#40BF91" Height="35" FontSize="18" Margin="140, -105, 0, 0" />
+          <Button Name="courseEightButton" Click="courseEightButton_Click" IsVisible="false" Content="Packages" Background="#181A1B" Foreground="#40BF91" Height="35" FontSize="18" Margin="140, -36, 0, 0" />
+
+          <!-- Getting Started Lessons -->
+          <Button Name="lessonOneButton" Click="lessonOneButton_Click" IsVisible="false" Content="Linux History" Background="#181A1B" Foreground="#40BF91" />
+          <Button Name="lessonTwoButton" Click="lessonTwoButton_Click" IsVisible="false" Content="Choosing A Distro" Background="#181A1B" Foreground="#40BF91" />
+          <Button Name="lessonThreeButton" Click="lessonThreeButton_Click" IsVisible="false" Content="Debian" Background="#181A1B" Foreground="#40BF91" />
+          <Button Name="lessonFourButton" Click="lessonFourButton_Click" IsVisible="false" Content="Red Hat EnterPrise" Background="#181A1B" Foreground="#40BF91" />
+          <Button Name="lessonFiveButton" Click="lessonFiveButton_Click" IsVisible="false" Content="Ubuntu" Background="#181A1B" Foreground="#40BF91" />
+          <Button Name="lessonSixButton" Click="lessonSixButton_Click" IsVisible="false" Content="Fedora" Background="#181A1B" Foreground="#40BF91" />
+          <Button Name="lessonSevenButton" Click="lessonSevenButton_Click" IsVisible="false" Content="Linux Mint" Background="#181A1B" Foreground="#40BF91" />
+          <Button Name="lessonEightButton" Click="lessonEightButton_Click" IsVisible="false" Content="Gentoo" Background="#181A1B" Foreground="#40BF91" />
+          <Button Name="lessonNineButton" Click="lessonNineButton_Click" IsVisible="false" Content="Arch Linux" Background="#181A1B" Foreground="#40BF91" />
+          <Button Name="lessonTenButton" Click="lessonTenButton_Click" IsVisible="false" Content="OpenSuse" Background="#181A1B" Foreground="#40BF91" />
+         
+          <!-- Command-Line Lessons -->
+          <Button Name="lessonElevenButton" Click="lessonElevenButton_Click" IsVisible="false" Content="The Shell" Background="#181A1B" Foreground="#40BF91" Height="30" Margin="50, 0, 0, 17" />
+
+          <Button Name="lessonTwelveButton" Click="lessonTwelveButton_Click" IsVisible="false" Content="Pwd Command" Background="#181A1B" Foreground="#40BF91" Height="30" Margin="-50, 0, 0, -32" />
+          <Button Name="lessonThirteenButton" Click="lessonThirteenButton_Click" IsVisible="false" Content="Cd Command" Background="#181A1B" Foreground="#40BF91" Height="30" Margin="-50, 0, 0, -89" />
+          <Button Name="lessonFourteenButton" Click="lessonFourteenButton_Click" IsVisible="false" Content="Ls Command" Background="#181A1B" Foreground="#40BF91" Height="30" Margin="-50, 0, 0, -155" />
+          <Button Name="lessonFifteenButton" Click="lessonFifteenButton_Click" IsVisible="false" Content="Touch Command" Background="#181A1B" Foreground="#40BF91" Height="30" Margin="-50, 0, 0, -212" />
+          <Button Name="lessonSixteenButton" Click="lessonSixteenButton_Click" IsVisible="false" Content="File Command" Background="#181A1B" Foreground="#40BF91" Height="30" Margin="-50, 0, 0, -275" />
+          <Button Name="lessonSeventeenButton" Click="lessonSeventeenButton_Click" IsVisible="false" Content="Cat Command" Background="#181A1B" Foreground="#40BF91" Height="30" Margin="-50, 0, 0, -334" />
+          <Button Name="lessonEighteenButton" Click="lessonEighteenButton_Click" IsVisible="false" Content="Less Command" Background="#181A1B" Foreground="#40BF91" Height="30" Margin="-50, 0, 0, -394" />
+          <Button Name="lessonNineteenButton" Click="lessonNineteenButton_Click" IsVisible="false" Content="History Command" Background="#181A1B" Foreground="#40BF91" Height="30" Margin="-50, 0, 0, -457" />
+          <Button Name="lessonTwentyButton" Click="lessonTwentyButton_Click" IsVisible="false" Content="Cp Command" Background="#181A1B" Foreground="#40BF91" Height="30" Margin="-50, 0, 0, -515" />
+
+          <Button Name="lessonTwentyOneButton" Click="lessonTwentyOneButton_Click" IsVisible="false" Content="Mv Command" Background="#181A1B" Foreground="#40BF91" Height="30" Margin="110, 0, 0, 0" />
+          <Button Name="lessonTwentyTwoButton" Click="lessonTwentyTwoButton_Click" IsVisible="false" Content="Mkdir Command" Background="#181A1B" Foreground="#40BF91" Height="30" Margin="110, 0, 0, 0" />
+          <Button Name="lessonTwentyThreeButton" Click="lessonTwentyThreeButton_Click" IsVisible="false" Content="Rm Command" Background="#181A1B" Foreground="#40BF91" Height="30" Margin="110, 0, 0, 0" />
+          <Button Name="lessonTwentyFourButton" Click="lessonTwentyFourButton_Click" IsVisible="false" Content="Find Command" Background="#181A1B" Foreground="#40BF91" Height="30" Margin="110, 0, 0, 0" />
+          <Button Name="lessonTwentyFiveButton" Click="lessonTwentyFiveButton_Click" IsVisible="false" Content="Help Command" Background="#181A1B" Foreground="#40BF91" Height="30" Margin="110, 0, 0, 0" />
+          <Button Name="lessonTwentySixButton" Click="lessonTwentySixButton_Click" IsVisible="false" Content="Man Command" Background="#181A1B" Foreground="#40BF91" Height="30" Margin="110, 0, 0, 0" />
+          <Button Name="lessonTwentySevenButton" Click="lessonTwentySevenButton_Click" IsVisible="false" Content="Whatis Command" Background="#181A1B" Foreground="#40BF91" Height="30" Margin="110, 0, 0, 0" />
+          <Button Name="lessonTwentyEightButton" Click="lessonTwentyEightButton_Click" IsVisible="false" Content="Alias Command" Background="#181A1B" Foreground="#40BF91" Height="30" Margin="110, 0, 0, 0" />
+          <Button Name="lessonTwentyNineButton" Click="lessonTwentyNineButton_Click" IsVisible="false" Content="Exit Command" Background="#181A1B" Foreground="#40BF91" Height="30" Margin="110, 0, 0, 0" />
+
+          <!-- Text Fu Lessons -->
+          <Button Name="lessonThirtyButton" Click="lessonThirtyButton_Click" IsVisible="false" Content="Stdout" Background="#181A1B" Foreground="#40BF91" Height="30" Margin="-50, 0, 0, 0" />
+          <Button Name="lessonThirtyOneButton" Click="lessonThirtyOneButton_Click" IsVisible="false" Content="Stdin" Background="#181A1B" Foreground="#40BF91" Height="30" Margin="-50, 0, 0, 0" />
+          <Button Name="lessonThirtyTwoButton" Click="lessonThirtyTwoButton_Click" IsVisible="false" Content="Stderr" Background="#181A1B" Foreground="#40BF91" Height="30" Margin="-50, 0, 0, 0" />
+          <Button Name="lessonThirtyThreeButton" Click="lessonThirtyThreeButton_Click" IsVisible="false" Content="Pipe/Tee" Background="#181A1B" Foreground="#40BF91" Height="30" Margin="-50, 0, 0, 0" />
+          <Button Name="lessonThirtyFourButton" Click="lessonThirtyFourButton_Click" IsVisible="false" Content="Env" Background="#181A1B" Foreground="#40BF91" Height="30" Margin="-50, 0, 0, -1" />
+          <Button Name="lessonThirtyFiveButton" Click="lessonThirtyFiveButton_Click" IsVisible="false" Content="Cut" Background="#181A1B" Foreground="#40BF91" Height="30" Margin="-50, 0, 0, -35" />
+          <Button Name="lessonThirtySixButton" Click="lessonThirtySixButton_Click" IsVisible="false" Content="Paste" Background="#181A1B" Foreground="#40BF91" Height="30" Margin="-50, 0, 0, -94" />
+          <Button Name="lessonThirtySevenButton" Click="lessonThirtySevenButton_Click" IsVisible="false" Content="Head" Background="#181A1B" Foreground="#40BF91" Height="30" Margin="-50, 0, 0, -158" />
+
+          <Button Name="lessonThirtyEightButton" Click="lessonThirtyEightButton_Click" IsVisible="false" Content="Tail" Background="#181A1B" Foreground="#40BF91" Height="30" Margin="110, -272, 0, 0" />
+          <Button Name="lessonThirtyNineButton" Click="lessonThirtyNineButton_Click" IsVisible="false" Content="Expand/Unexpand" Background="#181A1B" Foreground="#40BF91" Height="30" Margin="110, -215, 0, 0" />
+          <Button Name="lessonFortyButton" Click="lessonFortyButton_Click" IsVisible="false" Content="Join/Split" Background="#181A1B" Foreground="#40BF91" Height="30" Margin="110, -156, 0, 0" />
+          <Button Name="lessonFortyOneButton" Click="lessonFortyOneButton_Click" IsVisible="false" Content="Sort" Background="#181A1B" Foreground="#40BF91" Height="30" Margin="110, -93, 0, 0" />
+          <Button Name="lessonFortyTwoButton" Click="lessonFortyTwoButton_Click" IsVisible="false" Content="Tr" Background="#181A1B" Foreground="#40BF91" Height="30" Margin="110, -29, 0, 0" />
+          <Button Name="lessonFortyThreeButton" Click="lessonFortyThreeButton_Click" IsVisible="false" Content="Uniq" Background="#181A1B" Foreground="#40BF91" Height="30" Margin="110, 0, 0, 0" />
+          <Button Name="lessonFortyFourButton" Click="lessonFortyFourButton_Click" IsVisible="false" Content="Wc" Background="#181A1B" Foreground="#40BF91" Height="30" Margin="110, 0, 0, 0" />
+          <Button Name="lessonFortyFiveButton" Click="lessonFortyFiveButton_Click" IsVisible="false" Content="Grep" Background="#181A1B" Foreground="#40BF91" Height="30" Margin="110, 0, 0, 0" />
+
+          <!-- Advanced Text Fu Lessons -->
+          <Button Name="lessonFortySixButton" Click="lessonFortySixButton_Click" IsVisible="false" Content="Regex" Background="#181A1B" Foreground="#40BF91" Height="30" Margin="50, 0, 0, 17" />
+
+          <Button Name="lessonFortySevenButton" Click="lessonFortySevenButton_Click" IsVisible="false" Content="Vim Or Emacs" Background="#181A1B" Foreground="#40BF91" Height="30" Margin="-50, 0, 0, -30" />
+          <Button Name="lessonFortyEightButton" Click="lessonFortyEightButton_Click" IsVisible="false" Content="Vim" Background="#181A1B" Foreground="#40BF91" Height="30" Margin="-50, 0, 0, -91" />
+          <Button Name="lessonFortyNineButton" Click="lessonFortyNineButton_Click" IsVisible="false" Content="Vim Search" Background="#181A1B" Foreground="#40BF91" Height="30" Margin="-50, 0, 0, -153" />
+          <Button Name="lessonFiftyButton" Click="lessonFiftyButton_Click" IsVisible="false" Content="Vim Navigation" Background="#181A1B" Foreground="#40BF91" Height="30" Margin="-50, 0, 0, -210" />
+          <Button Name="lessonFiftyOneButton" Click="lessonFiftyOneButton_Click" IsVisible="false" Content="Vim Appending" Background="#181A1B" Foreground="#40BF91" Height="30" Margin="-50, 0, 0, -272" />
+          <Button Name="lessonFiftyTwoButton" Click="lessonFiftyTwoButton_Click" IsVisible="false" Content="Vim Editing" Background="#181A1B" Foreground="#40BF91" Height="30" Margin="-50, 0, 0, -334" />
+
+          <Button Name="lessonFiftyThreeButton" Click="lessonFiftyThreeButton_Click" IsVisible="false" Content="Vim Save/Exit" Background="#181A1B" Foreground="#40BF91" Height="30" Margin="110, 0, 0, 0" />
+          <Button Name="lessonFiftyFourButton" Click="lessonFiftyFourButton_Click" IsVisible="false" Content="Emacs" Background="#181A1B" Foreground="#40BF91" Height="30" Margin="110, 0, 0, 0" />
+          <Button Name="lessonFiftyFiveButton" Click="lessonFiftyFiveButton_Click" IsVisible="false" Content="Emacs Files" Background="#181A1B" Foreground="#40BF91" Height="30" Margin="110, 0, 0, 0" />
+          <Button Name="lessonFiftySixButton" Click="lessonFiftySixButton_Click" IsVisible="false" Content="Emacs Buffer" Background="#181A1B" Foreground="#40BF91" Height="30" Margin="110, 0, 0, 0" />
+          <Button Name="lessonFiftySevenButton" Click="lessonFiftySevenButton_Click" IsVisible="false" Content="Emacs Editing" Background="#181A1B" Foreground="#40BF91" Height="30" Margin="110, 0, 0, 0" />
+          <Button Name="lessonFiftyEightButton" Click="lessonFiftyEightButton_Click" IsVisible="false" Content="Emacs Exiting" Background="#181A1B" Foreground="#40BF91" Height="30" Margin="110, 0, 0, 0" />
+
+          <!-- User Management Lessons -->
+          <Button Name="lessonFiftyNineButton" Click="lessonFiftyNineButton_Click" IsVisible="false" Content="Users/Groups" Background="#181A1B" Foreground="#40BF91" Height="30" />
+          <Button Name="lessonSixtyButton" Click="lessonSixtyButton_Click" IsVisible="false" Content="Root User" Background="#181A1B" Foreground="#40BF91" Height="30" />
+          <Button Name="lessonSixtyOneButton" Click="lessonSixtyOneButton_Click" IsVisible="false" Content="Etc/passwd file" Background="#181A1B" Foreground="#40BF91" Height="30" />
+          <Button Name="lessonSixtyTwoButton" Click="lessonSixtyTwoButton_Click" IsVisible="false" Content="Etc/shadow file" Background="#181A1B" Foreground="#40BF91" Height="30" />
+          <Button Name="lessonSixtyThreeButton" Click="lessonSixtyThreeButton_Click" IsVisible="false" Content="Etc/group file" Background="#181A1B" Foreground="#40BF91" Height="30" />
+          <Button Name="lessonSixtyFourButton" Click="lessonSixtyFourButton_Click" IsVisible="false" Content="User Management Tools" Background="#181A1B" Foreground="#40BF91" Height="30" />
+
+          <!-- Permissions Lessons -->
+          <Button Name="lessonSixtyFiveButton" Click="lessonSixtyFiveButton_Click" IsVisible="false" Content="File Permissions" Background="#181A1B" Foreground="#40BF91" Height="30" />
+          <Button Name="lessonSixtySixButton" Click="lessonSixtySixButton_Click" IsVisible="false" Content="Modifying Permissions" Background="#181A1B" Foreground="#40BF91" Height="30" />
+          <Button Name="lessonSixtySevenButton" Click="lessonSixtySevenButton_Click" IsVisible="false" Content="Ownership Permissions" Background="#181A1B" Foreground="#40BF91" Height="30" />
+          <Button Name="lessonSixtyEightButton" Click="lessonSixtyEightButton_Click" IsVisible="false" Content="Umask" Background="#181A1B" Foreground="#40BF91" Height="30" />
+          <Button Name="lessonSixtyNineButton" Click="lessonSixtyNineButton_Click" IsVisible="false" Content="Setuid" Background="#181A1B" Foreground="#40BF91" Height="30" />
+          <Button Name="lessonSeventyButton" Click="lessonSeventyButton_Click" IsVisible="false" Content="Setgid" Background="#181A1B" Foreground="#40BF91" Height="30" />
+          <Button Name="lessonSeventyOneButton" Click="lessonSeventyOneButton_Click" IsVisible="false" Content="Process Permissions" Background="#181A1B" Foreground="#40BF91" Height="30" />
+          <Button Name="lessonSeventyTwoButton" Click="lessonSeventyTwoButton_Click" IsVisible="false" Content="Sticky Bit" Background="#181A1B" Foreground="#40BF91" Height="30" />
+
+          <!-- Process Lessons -->
+          <Button Name="lessonSeventyThreeButton" Click="lessonSeventyThreeButton_Click" IsVisible="false" Content="Monitor Process" Background="#181A1B" Foreground="#40BF91" Height="30" />
+          <Button Name="lessonSeventyFourButton" Click="lessonSeventyFourButton_Click" IsVisible="false" Content="Controlling Terminal" Background="#181A1B" Foreground="#40BF91" Height="30" />
+          <Button Name="lessonSeventyFiveButton" Click="lessonSeventyFiveButton_Click" IsVisible="false" Content="Process Details" Background="#181A1B" Foreground="#40BF91" Height="30" />
+          <Button Name="lessonSeventySixButton" Click="lessonSeventySixButton_Click" IsVisible="false" Content="Process Creation" Background="#181A1B" Foreground="#40BF91" Height="30" />
+          <Button Name="lessonSeventySevenButton" Click="lessonSeventySevenButton_Click" IsVisible="false" Content="Process Termination" Background="#181A1B" Foreground="#40BF91" Height="30" />
+          <Button Name="lessonSeventyEightButton" Click="lessonSeventyEightButton_Click" IsVisible="false" Content="Process Signals" Background="#181A1B" Foreground="#40BF91" Height="30" />
+          <Button Name="lessonSeventyNineButton" Click="lessonSeventyNineButton_Click" IsVisible="false" Content="Killing Processes" Background="#181A1B" Foreground="#40BF91" Height="30" />
+          <Button Name="lessonEightyButton" Click="lessonEightyButton_Click" IsVisible="false" Content="Process Niceness" Background="#181A1B" Foreground="#40BF91" Height="30" />
+          <Button Name="lessonEightyOneButton" Click="lessonEightyOneButton_Click" IsVisible="false" Content="Process States" Background="#181A1B" Foreground="#40BF91" Height="30" />
+          <Button Name="lessonEigthyTwoButton" Click="lessonEightyTwoButton_Click" IsVisible="false" Content="Proc Filesystem" Background="#181A1B" Foreground="#40BF91" Height="30" />
+          <Button Name="lessonEightyThreeButton" Click="lessonEightyThreeButton_Click" IsVisible="false" Content="Job Control" Background="#181A1B" Foreground="#40BF91" Height="30" />
+
+          <!-- Packages Lessons -->
+          <Button Name="lessonEightyFourButton" Click="lessonEightyFourButton_Click" IsVisible="false" Content="Software Distribution" Background="#181A1B" Foreground="#40BF91" Height="30" />
+          <Button Name="lessonEightyFiveButton" Click="lessonEightyFiveButton_Click" IsVisible="false" Content="Packages Repositories" Background="#181A1B" Foreground="#40BF91" Height="30" />
+          <Button Name="lessonEightySixButton" Click="lessonEightySixButton_Click" IsVisible="false" Content="Compressed Archives Tar" Background="#181A1B" Foreground="#40BF91" Height="30" />
+          <Button Name="lessonEightySevenButton" Click="lessonEightySevenButton_Click" IsVisible="false" Content="Package Dependencies" Background="#181A1B" Foreground="#40BF91" Height="30" />
+          <Button Name="lessonEightyEightButton" Click="lessonEightyEightButton_Click" IsVisible="false" Content="Package Install Tools" Background="#181A1B" Foreground="#40BF91" Height="30" />
+          <Button Name="lessonEightyNineButton" Click="lessonEightyNineButton_Click" IsVisible="false" Content="Package Management System" Background="#181A1B" Foreground="#40BF91" Height="30" />
+          <Button Name="lessonNinetyButton" Click="lessonNinetyButton_Click" IsVisible="false" Content="Compile Source Code" Background="#181A1B" Foreground="#40BF91" Height="30" />
+
+
+
+
+
+
+
+
+
+
+          <!-- JourneyMan Section -->
+          <Button Name="journeymanButton" Click="journeymanButton_Click" Content="JOURNEYMAN" Background="#181A1B" Foreground="#40BF91" FontSize="75" />
+
+          <Button Name="courseNineButton" Click="courseNineButton_Click" IsVisible="false" Content="Devices" Background="#181A1B" Foreground="#40BF91" Height="35" FontSize="18" Margin="-50, 0, 0, 0" />
+          <Button Name="courseTenButton" Click="courseTenButton_Click" IsVisible="false" Content="The FileSystem" Background="#181A1B" Foreground="#40BF91" Height="35" FontSize="18" Margin="-50, 0, 0, 0" />
+          <Button Name="courseElevenButton" Click="courseElevenButton_Click" IsVisible="false" Content="Boot The System" Background="#181A1B" Foreground="#40BF91" Height="35" FontSize="18" Margin="-50, 0, 0, 0" />
+
+          <Button Name="courseTwelveButton" Click="courseTwelveButton_Click" IsVisible="false" Content="Kernel" Background="#181A1B" Foreground="#40BF91" Height="35" FontSize="18" Margin="120, -173, 0, 0" />
+          <Button Name="courseThirteenButton" Click="courseThirteenButton_Click" IsVisible="false" Content="Init" Background="#181A1B" Foreground="#40BF91" Height="35" FontSize="18" Margin="120, -104, 0, 0" />
+          <Button Name="courseFourteenButton" Click="courseFourteenButton_Click" IsVisible="false" Content="Process Utilization" Background="#181A1B" Foreground="#40BF91" FontSize="18" Height="35" Margin="120, -37, 0, 0" />
+
+          <Button Name="courseFifteenButton" Click="courseFifteenButton_Click" IsVisible="false" Content="Logging" Background="#181A1B" Foreground="#40BF91" Height="35" FontSize="18" Margin="60, 0, 0, 0" />
+
+
+          <!-- Devices Lessons -->
+          <Button Name="lessonNinetyOneButton" Click="lessonNinetyOneButton_Click" IsVisible="false" Content="Dev Directory" Background="#181A1B" Foreground="#40BF91" Height="30" />
+          <Button Name="lessonNinetyTwoButton" Click="lessonNinetyTwoButton_Click" IsVisible="false" Content="Device Types" Background="#181A1B" Foreground="#40BF91" Height="30" />
+          <Button Name="lessonNinetyThreeButton" Click="lessonNinetyThreeButton_Click" IsVisible="false" Content="Device Names" Background="#181A1B" Foreground="#40BF91" Height="30" />
+          <Button Name="lessonNinetyFourButton" Click="lessonNinetyFourButton_Click" IsVisible="false" Content="Sysfs" Background="#181A1B" Foreground="#40BF91" Height="30" />
+          <Button Name="lessonNinetyFiveButton" Click="lessonNinetyFiveButton_Click" IsVisible="false" Content="Udev " Background="#181A1B" Foreground="#40BF91" Height="30" />
+          <Button Name="lessonNinetySixButton" Click="lessonNinetySixButton_Click" IsVisible="false" Content="Listing Devices" Background="#181A1B" Foreground="#40BF91" Height="30" />
+          <Button Name="lessonNinetySevenButton" Click="lessonNinetySevenButton_Click" IsVisible="false" Content="Command dd" Background="#181A1B" Foreground="#40BF91" Height="30" />
+
+          <!-- The FileSystem Lessons-->
+          <Button Name="lessonNinetyEightButton" Click="lessonNinetyEightButton_Click" IsVisible="false" Content="FileSystem Hierarchy" Background="#181A1B" Foreground="#40BF91" Height="30" Margin="-55, 0, 0, -29" />
+          <Button Name="lessonNinetyNineButton" Click="lessonNinetyNineButton_Click" IsVisible="false" Content="FileSystem Types" Background="#181A1B" Foreground="#40BF91" Height="30" Margin="-55, 0, 0, -90" />
+          <Button Name="lessonOneHundredButton" Click="lessonOneHundredButton_Click" IsVisible="false" Content="Anatomy Of A Disk" Background="#181A1B" Foreground="#40BF91" Height="30" Margin="-55, 0, 0, -152" />
+          <Button Name="lessonOneHundredOneButton" Click="lessonOneHundredOneButton_Click" IsVisible="false" Content="Disk Partitioning" Background="#181A1B" Foreground="#40BF91" Height="30" Margin="-55, 0, 0, -211" />
+          <Button Name="lessonOneHundredTwoButton" Click="lessonOneHundredTwoButton_Click" IsVisible="false" Content="Creating FileSystems" Background="#181A1B" Foreground="#40BF91" Height="30" Margin="-55, 0, 0, -275" />
+          <Button Name="lessonOneHundredThreeButton" Click="lessonOneHundredThreeButton_Click" IsVisible="false" Content="Mounting/Unmounting" Background="#181A1B" Foreground="#40BF91" Height="30" Margin="-55, 0, 0, -334" />
+
+          <Button Name="lessonOneHundredFourButton" Click="lessonOneHundredFourButton_Click" IsVisible="false" Content="Etc/fstab" Background="#181A1B" Foreground="#40BF91" Height="30" Margin="115, 0, 0, 0" />
+          <Button Name="lessonOneHundredFiveButton" Click="lessonOneHundredFiveButton_Click" IsVisible="false" Content="Swap Space" Background="#181A1B" Foreground="#40BF91" Height="30" Margin="115, 0, 0, 0" />
+          <Button Name="lessonOneHundredSixButton" Click="lessonOneHundredSixButton_Click" IsVisible="false" Content="Disk Usage" Background="#181A1B" Foreground="#40BF91" Height="30" Margin="115, 0, 0, 0" />
+          <Button Name="lessonOneHundredSevenButton" Click="lessonOneHundredSevenButton_Click" IsVisible="false" Content="FileSystem Repair" Background="#181A1B" Foreground="#40BF91" Height="30" Margin="115, 0, 0, 0" />
+          <Button Name="lessonOneHundredEightButton" Click="lessonOneHundredEightButton_Click" IsVisible="false" Content="Inodes" Background="#181A1B" Foreground="#40BF91" Height="30" Margin="115, 0, 0, 0" />
+          <Button Name="lessonOneHundredNineButton" Click="lessonOneHundredNineButton_Click" IsVisible="false" Content="Symlinks" Background="#181A1B" Foreground="#40BF91" Height="30" Margin="115, 0, 0, 0" />
+          <Button Name="lessonOneHundredNineExtraButton" Click="lessonOneHundredNineExtraButton_Click" IsVisible="false" Content="Hardlinks" Background="#181A1B" Foreground="#40BF91" Height="30" Margin="55, 0, 0, 0" />
+
+          <!-- Boot The System Lessons -->
+          <Button Name="lessonOneHundredTenButton" Click="lessonOneHundredTenButton_Click" IsVisible="false" Content="Boot Process Overview" Background="#181A1B" Foreground="#40BF91" Height="30" />
+          <Button Name="lessonOneHundredElevenButton" Click="lessonOneHundredElevenButton_Click" IsVisible="false" Content="Boot Process Bios" Background="#181A1B" Foreground="#40BF91" Height="30" />
+          <Button Name="lessonOneHundredTwelveButton" Click="lessonOneHundredTwelveButton_Click" IsVisible="false" Content="Boot Process Bootloader" Background="#181A1B" Foreground="#40BF91" Height="30" />
+          <Button Name="lessonOneHundredThirteenButton" Click="lessonOneHundredThirteenButton_Click" IsVisible="false" Content="Boot Process Kernel" Background="#181A1B" Foreground="#40BF91" Height="30" />
+          <Button Name="lessonOneHundredFourteenButton" Click="lessonOneHundredFourteenButton_Click" IsVisible="false" Content="Boot Process Init" Background="#181A1B" Foreground="#40BF91" Height="30" />
+
+          <!-- Kernel Lessons -->         
+          <Button Name="lessonOneHundredFifteenButton" Click="lessonOneHundredFifteenButton_Click" IsVisible="false" Content="Kernel Overview" Background="#181A1B" Foreground="#40BF91" Height="30" />
+          <Button Name="lessonOneHundredSixteenButton" Click="lessonOneHundredSixteenButton_Click" IsVisible="false" Content="Kernel Privelege Levels" Background="#181A1B" Foreground="#40BF91" Height="30" />
+          <Button Name="lessonOneHundredSeventeenButton" Click="lessonOneHundredSeventeenButton_Click" IsVisible="false" Content="System Calls" Background="#181A1B" Foreground="#40BF91" Height="30" />
+          <Button Name="lessonOneHundredEighteenButton" Click="lessonOneHundredEighteenButton_Click" IsVisible="false" Content="Kernel Installation" Background="#181A1B" Foreground="#40BF91" Height="30" />
+          <Button Name="lessonOneHundredNineteenButton" Click="lessonOneHundredNineteenButton_Click" IsVisible="false" Content="Kernel Location" Background="#181A1B" Foreground="#40BF91" Height="30" />
+          <Button Name="lessonOneHundredTwentyButton" Click="lessonOneHundredTwentyButton_Click" IsVisible="false" Content="Kernel Modules" Background="#181A1B" Foreground="#40BF91" Height="30" />
+
+          <!-- Init Lessons -->
+          <Button Name="lessonOneHundredTwentyOneButton" Click="lessonOneHundredTwentyOneButton_Click" IsVisible="false" Content="Sysv Overview" Background="#181A1B" Foreground="#40BF91" Height="30" />
+          <Button Name="lessonOneHundredTwentyTwoButton" Click="lessonOneHundredTwentyTwoButton_Click" IsVisible="false" Content="Sysv Services" Background="#181A1B" Foreground="#40BF91" Height="30" />
+          <Button Name="lessonOneHundredTwentyThreeButton" Click="lessonOneHundredTwentyThreeButton_Click" IsVisible="false" Content="Upstart Overview" Background="#181A1B" Foreground="#40BF91" Height="30" />
+          <Button Name="lessonOneHundredTwentyFourButton" Click="lessonOneHundredTwentyFourButton_Click" IsVisible="false" Content="Upstart Jobs" Background="#181A1B" Foreground="#40BF91" Height="30" />
+          <Button Name="lessonOneHundredTwentyFiveButton" Click="lessonOneHundredTwentyFiveButton_Click" IsVisible="false" Content="SystemD Overview" Background="#181A1B" Foreground="#40BF91" Height="30" />
+          <Button Name="lessonOneHundredTwentySixButton" Click="lessonOneHundredTwentySixButton_Click" IsVisible="false" Content="SystemD Goals" Background="#181A1B" Foreground="#40BF91" Height="30" />
+          <Button Name="lessonOneHundredTwentySevenButton" Click="lessonOneHundredTwentySevenButton_Click" IsVisible="false" Content="Power States" Background="#181A1B" Foreground="#40BF91" Height="30" />
+
+          <!-- Process Utilization Lessons -->
+          <Button Name="lessonOneHundredTwentyEightButton" Click="lessonOneHundredTwentyEightButton_Click" IsVisible="false" Content="Top" Background="#181A1B" Foreground="#40BF91" Height="30" />
+          <Button Name="lessonOneHundredTwentyNineButton" Click="lessonOneHundredTwentyNineButton_Click" IsVisible="false" Content="Lsof/Fuser" Background="#181A1B" Foreground="#40BF91" Height="30" />
+          <Button Name="lessonOneHundredThirtyButton" Click="lessonOneHundredThirtyButton_Click" IsVisible="false" Content="Threads" Background="#181A1B" Foreground="#40BF91" Height="30" />
+          <Button Name="lessonOneHundredThirtyOneButton" Click="lessonOneHundredThirtyOneButton_Click" IsVisible="false" Content="Cpu Monitoring" Background="#181A1B" Foreground="#40BF91" Height="30" />
+          <Button Name="lessonOneHundredThirtyTwoButton" Click="lessonOneHundredThirtyTwoButton_Click" IsVisible="false" Content="IO Monitoring" Background="#181A1B" Foreground="#40BF91" Height="30" />
+          <Button Name="lessonOneHundredThirtyThreeButton" Click="lessonOneHundredThirtyThreeButton_Click" IsVisible="false" Content="Memory Monitoring" Background="#181A1B" Foreground="#40BF91" Height="30" />
+          <Button Name="lessonOneHundredThirtyFourButton" Click="lessonOneHundredThirtyFourButton_Click" IsVisible="false" Content="Continous Monitoring" Background="#181A1B" Foreground="#40BF91" Height="30" />
+          <Button Name="lessonOneHundredThirtyFiveButton" Click="lessonOneHundredThirtyFiveButton_Click" IsVisible="false" Content="Cron Jobs" Background="#181A1B" Foreground="#40BF91" Height="30" />
+
+          <!-- Logging Lessons -->
+          <Button Name="lessonOneHundredThirtySixButton" Click="lessonOneHundredThirtySixButton_Click" IsVisible="false" Content="System Logging" Background="#181A1B" Foreground="#40BF91" Height="30" />
+          <Button Name="lessonOneHundredThirtySevenButton" Click="lessonOneHundredThirtySevenButton_Click" IsVisible="false" Content="Syslog" Background="#181A1B" Foreground="#40BF91" Height="30" />
+          <Button Name="lessonOneHundredThirtyEightButton" Click="lessonOneHundredThirtyEightButton_Click" IsVisible="false" Content="General Logging" Background="#181A1B" Foreground="#40BF91" Height="30" />
+          <Button Name="lessonOneHundredThirtyNineButton" Click="lessonOneHundredThirtyNineButton_Click" IsVisible="false" Content="Kernel Logging" Background="#181A1B" Foreground="#40BF91" Height="30" />
+          <Button Name="lessonOneHundredFortyButton" Click="lessonOneHundredFortyButton_Click" IsVisible="false" Content="Authentication Logging" Background="#181A1B" Foreground="#40BF91" Height="30" />
+          <Button Name="lessonOneHundredFortyOneButton" Click="lessonOneHundredFortyOneButton_Click" IsVisible="false" Content="Managing Log Files" Background="#181A1B" Foreground="#40BF91" Height="30" />
+
+
+
+
+
+
+
+
+
+
+          <!-- Networking Nomad -->
+          <Button Name="networkingButton" Click="networkingButton_Click" Content="NETWORKING" Background="#181A1B" Foreground="#40BF91" FontSize="75" />
+
+          <Button Name="courseSixteenButton" Click="courseSixteenButton_Click" IsVisible="false" Content="Network Sharing" Background="#181A1B" Foreground="#40BF91" Height="35" FontSize="18" Margin="-50, 0, 0, 0" />
+          <Button Name="courseSeventeenButton" Click="courseSeventeenButton_Click" IsVisible="false" Content="Network Basics" Background="#181A1B" Foreground="#40BF91" Height="35" FontSize="18" Margin="-50, 0, 0, 0" />
+          <Button Name="courseEighteenButton" Click="courseEighteenButton_Click" IsVisible="false" Content="Subnetting" Background="#181A1B" Foreground="#40BF91" Height="35" FontSize="18" Margin="-50, 0, 0, 0" />
+
+          <Button Name="courseNineteenButton" Click="courseNineteenButton_Click" IsVisible="false" Content="Routing" Background="#181A1B" Foreground="#40BF91" Height="35" FontSize="18" Margin="140, -174, 0, 0" />
+          <Button Name="courseTwentyButton" Click="courseTwentyButton_Click" IsVisible="false" Content="Network Config" Background="#181A1B" Foreground="#40BF91" Height="35" FontSize="18" Margin="140, -104, 0, 0" />
+          <Button Name="courseTwentyOneButton" Click="courseTwentyOneButton_Click" IsVisible="false" Content="Troubleshooting" Background="#181A1B" Foreground="#40BF91" Height="35" FontSize="18" Margin="140, -34, 0, 0" />
+
+          <Button Name="courseTwentyTwoButton" Click="courseTwentyTwoButton_Click" IsVisible="false" Content="DNS" Background="#181A1B" Foreground="#40BF91" Height="35" FontSize="18" Margin="75, 0, 0, 0" />
+
+
+          <!-- Networking Sharing Lessons -->
+          <Button Name="lessonOneHundredFortyTwoButton" Click="lessonOneHundredFortyTwoButton_Click" IsVisible="false" Content="File Sharing" Background="#181A1B" Foreground="#40BF91" Height="30" />
+          <Button Name="lessonOneHundredFortyThreeButton" Click="lessonOneHundredFortyThreeButton_Click" IsVisible="false" Content="Rsync" Background="#181A1B" Foreground="#40BF91" Height="30" />
+          <Button Name="lessonOneHundredFortyFourButton" Click="lessonOneHundredFortyFourButton_Click" IsVisible="false" Content="Simple Http Server" Background="#181A1B" Foreground="#40BF91" Height="30" />
+          <Button Name="lessonOneHundredFortyFiveButton" Click="lessonOneHundredFortyFiveButton_Click" IsVisible="false" Content="Nfs Network File Share" Background="#181A1B" Foreground="#40BF91" Height="30" />
+          <Button Name="lessonOneHundredFortySixButton" Click="lessonOneHundredFortySixButton_Click" IsVisible="false" Content="Samba" Background="#181A1B" Foreground="#40BF91" Height="30" />
+
+          <!-- Network Basics Lessons -->
+          <Button Name="lessonOneHundredFortySevenButton" Click="lessonOneHundredFortySevenButton_Click" IsVisible="false" Content="Network Basics" Background="#181A1B" Foreground="#40BF91" Height="30" />
+          <Button Name="lessonOneHundredFortyEightButton" Click="lessonOneHundredFortyEightButton_Click" IsVisible="false" Content="Osi Model" Background="#181A1B" Foreground="#40BF91" Height="30" />
+          <Button Name="lessonOneHundredFortyNineButton" Click="lessonOneHundredFortyNineButton_Click" IsVisible="false" Content="Tcp/Ip Model" Background="#181A1B" Foreground="#40BF91" Height="30" />
+          <Button Name="lessonOneHundredFiftyButton" Click="lessonOneHundredFiftyButton_Click" IsVisible="false" Content="Network Addressing" Background="#181A1B" Foreground="#40BF91" Height="30" />
+          <Button Name="lessonOneHundredFiftyOneButton" Click="lessonOneHundredFiftyOneButton_Click" IsVisible="false" Content="Application Layer" Background="#181A1B" Foreground="#40BF91" Height="30" />
+          <Button Name="lessonOneHundredFiftyTwoButton" Click="lessonOneHundredFiftyTwoButton_Click" IsVisible="false" Content="Transport Layer" Background="#181A1B" Foreground="#40BF91" Height="30" />
+          <Button Name="lessonOneHundredFiftyThreeButton" Click="lessonOneHundredFiftyThreeButton_Click" IsVisible="false" Content="Network Layer" Background="#181A1B" Foreground="#40BF91" Height="30" />
+          <Button Name="lessonOneHundredFiftyFourButton" Click="lessonOneHundredFiftyFourButton_Click" IsVisible="false" Content="Link Layer" Background="#181A1B" Foreground="#40BF91" Height="30" />
+          <Button Name="lessonOneHundredFiftyFiveButton" Click="lessonOneHundredFiftyFiveButton_Click" IsVisible="false" Content="Dhcp Overview" Background="#181A1B" Foreground="#40BF91" Height="30" />
+
+          <!-- Subnetting Lessons -->
+          <Button Name="lessonOneHundredFiftySixButton" Click="lessonOneHundredFiftySixButton_Click" IsVisible="false" Content="Ipv4" Background="#181A1B" Foreground="#40BF91" Height="30" />
+          <Button Name="lessonOneHundredFiftySevenButton" Click="lessonOneHundredFiftySevenButton_Click" IsVisible="false" Content="Subnets" Background="#181A1B" Foreground="#40BF91" Height="30" />
+          <Button Name="lessonOneHundredFiftyEightButton" Click="lessonOneHundredFiftyEightButton_Click" IsVisible="false" Content="Subnet Math" Background="#181A1B" Foreground="#40BF91" Height="30" />
+          <Button Name="lessonOneHundredFiftyNineButton" Click="lessonOneHundredFiftyNineButton_Click" IsVisible="false" Content="Subnetting Cheats" Background="#181A1B" Foreground="#40BF91" Height="30" />
+          <Button Name="lessonOneHundredSixtyButton" Click="lessonOneHundredSixtyButton_Click" IsVisible="false" Content="Classless Interdomain Routing (CIDR)" Background="#181A1B" Foreground="#40BF91" Height="30" />
+          <Button Name="lessonOneHundredSixtyOneButton" Click="lessonOneHundredSixtyOneButton_Click" IsVisible="false" Content="Network Adress Translation (NAT)" Background="#181A1B" Foreground="#40BF91" Height="30" />
+          <Button Name="lessonOneHundredSixtyTwoButton" Click="lessonOneHundredSixtyTwoButton_Click" IsVisible="false" Content="Ipv6" Background="#181A1B" Foreground="#40BF91" Height="30" />
+
+          <!-- Routing Lessons -->
+          <Button Name="lessonOneHundredSixtyThreeButton" Click="lessonOneHundredSixtyThreeButton_Click" IsVisible="false" Content="What Is A Router?" Background="#181A1B" Foreground="#40BF91" Height="30" />
+          <Button Name="lessonOneHundredSixtyFourButton" Click="lessonOneHundredSixtyFourButton_Click" IsVisible="false" Content="Routing Table" Background="#181A1B" Foreground="#40BF91" Height="30" />
+          <Button Name="lessonOneHundredSixtyFiveButton" Click="lessonOneHundredSixtyFiveButton_Click" IsVisible="false" Content="Path Of A Packet" Background="#181A1B" Foreground="#40BF91" Height="30" />
+          <Button Name="lessonOneHundredSixtySixButton" Click="lessonOneHundredSixtySixButton_Click" IsVisible="false" Content="Routing Protocols" Background="#181A1B" Foreground="#40BF91" Height="30" />
+          <Button Name="lessonOneHundredSixtySevenButton" Click="lessonOneHundredSixtySevenButton_Click" IsVisible="false" Content="Distance Vector Protocols" Background="#181A1B" Foreground="#40BF91" Height="30" />
+          <Button Name="lessonOneHundredSixtyEightButton" Click="lessonOneHundredSixtyEightButton_Click" IsVisible="false" Content="Link State Protocols" Background="#181A1B" Foreground="#40BF91" Height="30" />
+          <Button Name="lessonOneHundredSixtyNineButton" Click="lessonOneHundredSixtyNineButton_Click" IsVisible="false" Content="Border Gateway Protocol (BGP)" Background="#181A1B" Foreground="#40BF91" Height="30" />
+
+          <!-- Network Config Lessons -->
+          <Button Name="lessonOneHundredSeventyButton" Click="lessonOneHundredSeventyButton_Click" IsVisible="false" Content="Network Interfaces" Background="#181A1B" Foreground="#40BF91" Height="30" />
+          <Button Name="lessonOneHundredSeventyOneButton" Click="lessonOneHundredSeventyOneButton_Click" IsVisible="false" Content="Route" Background="#181A1B" Foreground="#40BF91" Height="30" />
+          <Button Name="lessonOneHundredSeventyTwoButton" Click="lessonOneHundredSeventyTwoButton_Click" IsVisible="false" Content="Dhclient" Background="#181A1B" Foreground="#40BF91" Height="30" />
+          <Button Name="lessonOneHundredSeventyThreeButton" Click="lessonOneHundredSeventyThreeButton_Click" IsVisible="false" Content="Network Manager" Background="#181A1B" Foreground="#40BF91" Height="30" />
+          <Button Name="lessonOneHundredSeventyFourButton" Click="lessonOneHundredSeventyFourButton_Click" IsVisible="false" Content="Command arp" Background="#181A1B" Foreground="#40BF91" Height="30" />
+
+          <!-- Troubleshooting Lessons -->
+          <Button Name="lessonOneHundredSeventyFiveButton" Click="lessonOneHundredSeventyFiveButton_Click" IsVisible="false" Content="Icmp" Background="#181A1B" Foreground="#40BF91" Height="30" />
+          <Button Name="lessonOneHundredSeventySixButton" Click="lessonOneHundredSeventySixButton_Click" IsVisible="false" Content="Ping" Background="#181A1B" Foreground="#40BF91" Height="30" />
+          <Button Name="lessonOneHundredSeventySevenButton" Click="lessonOneHundredSeventySevenButton_Click" IsVisible="false" Content="Traceroute" Background="#181A1B" Foreground="#40BF91" Height="30" />
+          <Button Name="lessonOneHundredSeventyEightButton" Click="lessonOneHundredSeventyEightButton_Click" IsVisible="false" Content="Netstat" Background="#181A1B" Foreground="#40BF91" Height="30" />
+          <Button Name="lessonOneHundredSeventyNineButton" Click="lessonOneHundredSeventyNineButton_Click" IsVisible="false" Content="Packet Analysis" Background="#181A1B" Foreground="#40BF91" Height="30" />
+
+          <!-- DNS Lessons -->
+          <Button Name="lessonOneHundredEightyButton" Click="lessonOneHundredEightyButton_Click" IsVisible="false" Content="What is DNS?" Background="#181A1B" Foreground="#40BF91" Height="30" />
+          <Button Name="lessonOneHundredEightyOneButton" Click="lessonOneHundredEightyOneButton_Click" IsVisible="false" Content="DNS Components" Background="#181A1B" Foreground="#40BF91" Height="30" />
+          <Button Name="lessonOneHundredEightyTwoButton" Click="lessonOneHundredEightyTwoButton_Click" IsVisible="false" Content="DNS Process" Background="#181A1B" Foreground="#40BF91" Height="30" />
+          <Button Name="lessonOneHundredEightyThreeButton" Click="lessonOneHundredEightyThreeButton_Click" IsVisible="false" Content="Etc hosts" Background="#181A1B" Foreground="#40BF91" Height="30" />
+          <Button Name="lessonOneHundredEightyFourButton" Click="lessonOneHundredEightyFourButton_Click" IsVisible="false" Content="DNS Setup" Background="#181A1B" Foreground="#40BF91" Height="30" />
+          <Button Name="lessonOneHundredEightyFiveButton" Click="lessonOneHundredEightyFiveButton_Click" IsVisible="false" Content="DNS Tools" Background="#181A1B" Foreground="#40BF91" Height="30" />
+
+
+
+       </StackPanel> 
+      </ScrollViewer>
+
+</Window>
