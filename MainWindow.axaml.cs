@@ -20,7 +20,7 @@ public partial class MainWindow : Window
 
     public void goBackArrow_Click(object sender, RoutedEventArgs e)
     {
-         if (onGrassHopper || onJourneyMan || onNetworking) { goBackArrow.IsVisible = false; }
+         if (onGrassHopper || onJourneyMan || onNetworking && grasshopperButton.IsVisible == true) { goBackArrow.IsVisible = false; }
 
 
          if (coursesLabel.IsVisible) 
@@ -99,6 +99,242 @@ public partial class MainWindow : Window
            courseTwentyTwoButton.IsVisible = false;
         }
 
+        if (onLessons && onGrassHopper)
+        {
+           goBackArrow.IsVisible = true;
+           coursesLabel.IsVisible = true;
+           lessonsLabel.IsVisible = false;
+
+           courseOneButton.IsVisible = true;
+           courseTwoButton.IsVisible = true;
+           courseThreeButton.IsVisible = true;
+           courseFourButton.IsVisible = true;
+           courseFiveButton.IsVisible = true;
+           courseSixButton.IsVisible = true;
+           courseSevenButton.IsVisible = true;
+           courseEightButton.IsVisible = true;
+
+           lessonOneButton.IsVisible = false;
+           lessonTwoButton.IsVisible = false;
+           lessonThreeButton.IsVisible = false;
+           lessonFourButton.IsVisible = false;
+           lessonFiveButton.IsVisible = false;
+           lessonSixButton.IsVisible = false;
+           lessonSevenButton.IsVisible = false;
+           lessonEightButton.IsVisible = false;
+           lessonNineButton.IsVisible = false;
+           lessonTenButton.IsVisible = false;
+           lessonElevenButton.IsVisible = false;
+           lessonTwelveButton.IsVisible = false;
+           lessonThirteenButton.IsVisible = false;
+           lessonFourteenButton.IsVisible = false;
+           lessonFifteenButton.IsVisible = false;
+           lessonSixteenButton.IsVisible = false;
+           lessonSeventeenButton.IsVisible = false;
+           lessonEighteenButton.IsVisible = false;
+           lessonNineteenButton.IsVisible = false;
+           lessonTwentyButton.IsVisible = false;
+           lessonTwentyOneButton.IsVisible = false;
+           lessonTwentyTwoButton.IsVisible = false;
+           lessonTwentyThreeButton.IsVisible = false;
+           lessonTwentyFourButton.IsVisible = false;
+           lessonTwentyFiveButton.IsVisible = false;
+           lessonTwentySixButton.IsVisible = false;
+           lessonTwentySevenButton.IsVisible = false;
+           lessonTwentyEightButton.IsVisible = false;
+           lessonTwentyNineButton.IsVisible = false;
+           lessonThirtyButton.IsVisible = false;
+           lessonThirtyOneButton.IsVisible = false;
+           lessonThirtyTwoButton.IsVisible = false;
+           lessonThirtyThreeButton.IsVisible = false;
+           lessonThirtyFourButton.IsVisible = false;
+           lessonThirtyFiveButton.IsVisible = false;
+           lessonThirtySixButton.IsVisible = false;
+           lessonThirtySevenButton.IsVisible = false;
+           lessonThirtyEightButton.IsVisible = false;
+           lessonThirtyNineButton.IsVisible = false;
+           lessonFortyButton.IsVisible = false;
+           lessonFortyOneButton.IsVisible = false;
+           lessonFortyTwoButton.IsVisible = false;
+           lessonFortyThreeButton.IsVisible = false;
+           lessonFortyFourButton.IsVisible = false;
+           lessonFortyFiveButton.IsVisible = false;
+           lessonFortySixButton.IsVisible = false;
+           lessonFortySevenButton.IsVisible = false;
+           lessonFortyEightButton.IsVisible = false;
+           lessonFortyNineButton.IsVisible = false;
+           lessonFiftyButton.IsVisible = false;
+           lessonFiftyOneButton.IsVisible = false;
+           lessonFiftyTwoButton.IsVisible = false;
+           lessonFiftyThreeButton.IsVisible = false;
+           lessonFiftyFourButton.IsVisible = false;
+           lessonFiftyFiveButton.IsVisible = false;
+           lessonFiftySixButton.IsVisible = false;
+           lessonFiftySevenButton.IsVisible = false;
+           lessonFiftyEightButton.IsVisible = false;
+           lessonFiftyNineButton.IsVisible = false;
+           lessonSixtyButton.IsVisible = false;
+           lessonSixtyOneButton.IsVisible = false;
+           lessonSixtyTwoButton.IsVisible = false;
+           lessonSixtyThreeButton.IsVisible = false;
+           lessonSixtyFourButton.IsVisible = false;
+           lessonSixtyFiveButton.IsVisible = false;
+           lessonSixtySixButton.IsVisible = false;
+           lessonSixtySevenButton.IsVisible = false;
+           lessonSixtyEightButton.IsVisible = false;
+           lessonSixtyNineButton.IsVisible = false;
+           lessonSeventyButton.IsVisible = false;
+           lessonSeventyOneButton.IsVisible = false;
+           lessonSeventyTwoButton.IsVisible = false;
+           lessonSeventyThreeButton.IsVisible = false;
+           lessonSeventyFourButton.IsVisible = false;
+           lessonSeventyFiveButton.IsVisible = false;
+           lessonSeventySixButton.IsVisible = false;
+           lessonSeventySevenButton.IsVisible = false;
+           lessonSeventyEightButton.IsVisible = false;
+           lessonSeventyNineButton.IsVisible = false;
+           lessonEightyButton.IsVisible = false;
+           lessonEightyOneButton.IsVisible = false;
+           lessonEigthyTwoButton.IsVisible = false;
+           lessonEightyThreeButton.IsVisible = false;
+           lessonEightyFourButton.IsVisible = false;
+           lessonEightyFiveButton.IsVisible = false;
+           lessonEightySixButton.IsVisible = false;
+           lessonEightySevenButton.IsVisible = false;
+           lessonEightyEightButton.IsVisible = false;
+           lessonEightyNineButton.IsVisible = false;
+           lessonNinetyButton.IsVisible = false;
+        }
+
+        if (onLessons && onJourneyMan)
+        {
+           goBackArrow.IsVisible = true;
+           coursesLabel.IsVisible = true;
+           lessonsLabel.IsVisible = false;
+
+           courseNineButton.IsVisible = true;
+           courseTenButton.IsVisible = true;
+           courseElevenButton.IsVisible = true;
+           courseTwelveButton.IsVisible = true;
+           courseThirteenButton.IsVisible = true;
+           courseFourteenButton.IsVisible = true;
+           courseFifteenButton.IsVisible = true;
+
+
+           lessonNinetyOneButton.IsVisible = false;
+           lessonNinetyTwoButton.IsVisible = false;
+           lessonNinetyThreeButton.IsVisible = false;
+           lessonNinetyFourButton.IsVisible = false;
+           lessonNinetyFiveButton.IsVisible = false;
+           lessonNinetySixButton.IsVisible = false;
+           lessonNinetySevenButton.IsVisible = false;
+           lessonNinetyEightButton.IsVisible = false;
+           lessonNinetyNineButton.IsVisible = false;
+           lessonOneHundredButton.IsVisible = false;
+           lessonOneHundredOneButton.IsVisible = false;
+           lessonOneHundredTwoButton.IsVisible = false;
+           lessonOneHundredThreeButton.IsVisible = false;
+           lessonOneHundredFourButton.IsVisible = false;
+           lessonOneHundredFiveButton.IsVisible = false;
+           lessonOneHundredSixButton.IsVisible = false;
+           lessonOneHundredSevenButton.IsVisible = false;
+           lessonOneHundredEightButton.IsVisible = false;
+           lessonOneHundredNineButton.IsVisible = false;
+           lessonOneHundredNineExtraButton.IsVisible = false;
+           lessonOneHundredTenButton.IsVisible = false;
+           lessonOneHundredElevenButton.IsVisible = false;
+           lessonOneHundredTwelveButton.IsVisible = false;
+           lessonOneHundredThirteenButton.IsVisible = false;
+           lessonOneHundredFourteenButton.IsVisible = false;
+           lessonOneHundredFifteenButton.IsVisible = false;
+           lessonOneHundredSixteenButton.IsVisible = false;
+           lessonOneHundredSeventeenButton.IsVisible = false;
+           lessonOneHundredEighteenButton.IsVisible = false;
+           lessonOneHundredNineteenButton.IsVisible = false;
+           lessonOneHundredTwentyButton.IsVisible = false;
+           lessonOneHundredTwentyOneButton.IsVisible = false;
+           lessonOneHundredTwentyTwoButton.IsVisible = false;
+           lessonOneHundredTwentyThreeButton.IsVisible = false;
+           lessonOneHundredTwentyFourButton.IsVisible = false;
+           lessonOneHundredTwentyFiveButton.IsVisible = false;
+           lessonOneHundredTwentySixButton.IsVisible = false;
+           lessonOneHundredTwentySevenButton.IsVisible = false;
+           lessonOneHundredTwentyEightButton.IsVisible = false;
+           lessonOneHundredTwentyNineButton.IsVisible = false;
+           lessonOneHundredThirtyButton.IsVisible = false;
+           lessonOneHundredThirtyOneButton.IsVisible = false;
+           lessonOneHundredThirtyTwoButton.IsVisible = false;
+           lessonOneHundredThirtyThreeButton.IsVisible = false;
+           lessonOneHundredThirtyFourButton.IsVisible = false;
+           lessonOneHundredThirtyFiveButton.IsVisible = false;
+           lessonOneHundredThirtySixButton.IsVisible = false;
+           lessonOneHundredThirtySevenButton.IsVisible = false;
+           lessonOneHundredThirtyEightButton.IsVisible = false;
+           lessonOneHundredThirtyNineButton.IsVisible = false;
+           lessonOneHundredFortyButton.IsVisible = false;
+           lessonOneHundredFortyOneButton.IsVisible = false;
+        }
+
+        if (onLessons && onNetworking)
+        {
+           goBackArrow.IsVisible = true;
+           coursesLabel.IsVisible = true;
+           lessonsLabel.IsVisible = false;
+
+           courseSixteenButton.IsVisible = true;
+           courseSeventeenButton.IsVisible = true;
+           courseEighteenButton.IsVisible = true;
+           courseNineteenButton.IsVisible = true;
+           courseTwentyButton.IsVisible = true;
+           courseTwentyOneButton.IsVisible = true;
+           courseTwentyTwoButton.IsVisible = true;
+
+           lessonOneHundredFortyTwoButton.IsVisible = false;
+           lessonOneHundredFortyThreeButton.IsVisible = false;
+           lessonOneHundredFortyFourButton.IsVisible = false;
+           lessonOneHundredFortyFiveButton.IsVisible = false;
+           lessonOneHundredFortySixButton.IsVisible = false;
+           lessonOneHundredFortySevenButton.IsVisible = false;
+           lessonOneHundredFortyEightButton.IsVisible = false;
+           lessonOneHundredFortyNineButton.IsVisible = false;
+           lessonOneHundredFiftyButton.IsVisible = false;
+           lessonOneHundredFiftyOneButton.IsVisible = false;
+           lessonOneHundredFiftyTwoButton.IsVisible = false;
+           lessonOneHundredFiftyThreeButton.IsVisible = false;
+           lessonOneHundredFiftyFourButton.IsVisible = false;
+           lessonOneHundredFiftyFiveButton.IsVisible = false;
+           lessonOneHundredFiftySixButton.IsVisible = false;
+           lessonOneHundredFiftySevenButton.IsVisible = false;
+           lessonOneHundredFiftyEightButton.IsVisible = false;
+           lessonOneHundredFiftyNineButton.IsVisible = false;
+           lessonOneHundredSixtyButton.IsVisible = false;
+           lessonOneHundredSixtyOneButton.IsVisible = false;
+           lessonOneHundredSixtyTwoButton.IsVisible = false;
+           lessonOneHundredSixtyThreeButton.IsVisible = false;
+           lessonOneHundredSixtyFourButton.IsVisible = false;
+           lessonOneHundredSixtyFiveButton.IsVisible = false;
+           lessonOneHundredSixtySixButton.IsVisible = false;
+           lessonOneHundredSixtySevenButton.IsVisible = false;
+           lessonOneHundredSixtyEightButton.IsVisible = false;
+           lessonOneHundredSixtyNineButton.IsVisible = false;
+           lessonOneHundredSeventyButton.IsVisible = false;
+           lessonOneHundredSeventyOneButton.IsVisible = false;
+           lessonOneHundredSeventyTwoButton.IsVisible = false;
+           lessonOneHundredSeventyThreeButton.IsVisible = false;
+           lessonOneHundredSeventyFourButton.IsVisible = false;
+           lessonOneHundredSeventyFiveButton.IsVisible = false;
+           lessonOneHundredSeventySixButton.IsVisible = false;
+           lessonOneHundredSeventySevenButton.IsVisible = false;
+           lessonOneHundredSeventyEightButton.IsVisible = false;
+           lessonOneHundredSeventyNineButton.IsVisible = false;
+           lessonOneHundredEightyButton.IsVisible = false;
+           lessonOneHundredEightyOneButton.IsVisible = false;
+           lessonOneHundredEightyTwoButton.IsVisible = false;
+           lessonOneHundredEightyThreeButton.IsVisible = false;
+           lessonOneHundredEightyFourButton.IsVisible = false;
+           lessonOneHundredEightyFiveButton.IsVisible = false;
+        }
+
 
     }
 
@@ -110,6 +346,8 @@ public partial class MainWindow : Window
     public void grasshopperButton_Click(object sender, RoutedEventArgs e)
     {
         onGrassHopper = true;
+        onJourneyMan = false;
+        onNetworking = false;
         goBackArrow.IsVisible = true;
 
         grasshopperButton.IsVisible=false;
@@ -133,6 +371,8 @@ public partial class MainWindow : Window
     public void journeymanButton_Click(object sender, RoutedEventArgs e)
     {
         onJourneyMan = true;
+        onGrassHopper = false;
+        onNetworking = false;
         goBackArrow.IsVisible = true;
 
         grasshopperButton.IsVisible=false;
@@ -153,6 +393,8 @@ public partial class MainWindow : Window
     public void networkingButton_Click(object sender, RoutedEventArgs e)
     {
         onNetworking = true;
+        onGrassHopper = false;
+        onJourneyMan = false;
         goBackArrow.IsVisible = true;
 
         grasshopperButton.IsVisible=false;
