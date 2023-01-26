@@ -15,6 +15,3 @@ If you're on linux, install dotnet 6, open your terminal emulator of choice, the
 # DON'T EXPECT GOOD CODE
 
 This is being made with c# and avalonia, im extremely beginner when it comes to xaml (started less then a month ago), so don't expect any form of professional code from this project!!!
-
-# THE PROGRAM IS STILL UNFINISHED AND UNUSABLE!!!
-I am still working on it, at its current state, is not usable, however, once it is usable, i will come back and edit this readme *.^
