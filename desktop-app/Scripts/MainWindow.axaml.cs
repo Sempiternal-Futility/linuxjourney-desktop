@@ -13,6 +13,30 @@ public partial class MainWindow : Window
     static bool onLessons = false;
     static bool onText = false;
 
+    static bool onCourseOne = false;
+    static bool onCourseTwo = false;
+    static bool onCourseThree = false;
+    static bool onCourseFour = false;
+    static bool onCourseFive = false;
+    static bool onCourseSix = false;
+    static bool onCourseSeven = false;
+    static bool onCourseEight = false;
+    static bool onCourseNine = false;
+    static bool onCourseTen = false;
+    static bool onCourseEleven = false;
+    static bool onCourseTwelve = false;
+    static bool onCourseThirteen = false;
+    static bool onCourseFourteen = false;
+    static bool onCourseFifteen = false;
+    static bool onCourseSixteen = false;
+    static bool onCourseSeventeen = false;
+    static bool onCourseEighteen = false;
+    static bool onCourseNineteen = false;
+    static bool onCourseTwenty = false;
+    static bool onCourseTwentyOne = false;
+    static bool onCourseTwentyTwo = false;
+    
+
     public MainWindow()
     {
         InitializeComponent();
@@ -335,6 +359,396 @@ public partial class MainWindow : Window
            lessonOneHundredEightyFiveButton.IsVisible = false;
         }
 
+        if (onText && onCourseOne)
+        {
+           goBackArrow.IsVisible = true;
+           lessonsLabel.IsVisible = true;
+
+           lessonContent.IsVisible = false;
+
+           lessonOneButton.IsVisible = true;
+           lessonTwoButton.IsVisible = true;
+           lessonThreeButton.IsVisible = true;
+           lessonFourButton.IsVisible = true;
+           lessonFiveButton.IsVisible = true;
+           lessonSixButton.IsVisible = true;
+           lessonSevenButton.IsVisible = true;
+           lessonEightButton.IsVisible = true;
+           lessonNineButton.IsVisible = true;
+           lessonTenButton.IsVisible = true;
+        }
+
+        if (onText && onCourseTwo)
+        {
+           goBackArrow.IsVisible = true;
+           lessonsLabel.IsVisible = true;
+
+           lessonContent.IsVisible = false;
+
+           lessonElevenButton.IsVisible = true;
+           lessonTwelveButton.IsVisible = true;
+           lessonThirteenButton.IsVisible = true;
+           lessonFourteenButton.IsVisible = true;
+           lessonFifteenButton.IsVisible = true;
+           lessonSixteenButton.IsVisible = true;
+           lessonSeventeenButton.IsVisible = true;
+           lessonEighteenButton.IsVisible = true;
+           lessonNineteenButton.IsVisible = true;
+           lessonTwentyButton.IsVisible = true;
+           lessonTwentyOneButton.IsVisible = true;
+           lessonTwentyTwoButton.IsVisible = true;
+           lessonTwentyThreeButton.IsVisible = true;
+           lessonTwentyFourButton.IsVisible = true;
+           lessonTwentyFiveButton.IsVisible = true;
+           lessonTwentySixButton.IsVisible = true;
+           lessonTwentySevenButton.IsVisible = true;
+           lessonTwentyEightButton.IsVisible = true;
+           lessonTwentyNineButton.IsVisible = true;
+        }
+
+        if (onText && onCourseThree)
+        { 
+           goBackArrow.IsVisible = true;
+           lessonsLabel.IsVisible = true;
+
+           lessonContent.IsVisible = false;
+
+
+           lessonThirtyButton.IsVisible = true;
+           lessonThirtyOneButton.IsVisible = true;
+           lessonThirtyTwoButton.IsVisible = true;
+           lessonThirtyThreeButton.IsVisible = true;
+           lessonThirtyFourButton.IsVisible = true;
+           lessonThirtyFiveButton.IsVisible = true;
+           lessonThirtySixButton.IsVisible = true;
+           lessonThirtySevenButton.IsVisible = true;
+           lessonThirtyEightButton.IsVisible = true;
+           lessonThirtyNineButton.IsVisible = true;
+           lessonFortyButton.IsVisible = true;
+           lessonFortyOneButton.IsVisible = true;
+           lessonFortyTwoButton.IsVisible = true;
+           lessonFortyThreeButton.IsVisible = true;
+           lessonFortyFourButton.IsVisible = true;
+           lessonFortyFiveButton.IsVisible = true;
+        }
+
+        if (onText && onCourseFour)
+        {
+           goBackArrow.IsVisible = true;
+           lessonsLabel.IsVisible = true;
+
+           lessonContent.IsVisible = false;
+
+           lessonFortySixButton.IsVisible = true;
+           lessonFortySevenButton.IsVisible = true;
+           lessonFortyEightButton.IsVisible = true;
+           lessonFortyNineButton.IsVisible = true;
+           lessonFiftyButton.IsVisible = true;
+           lessonFiftyOneButton.IsVisible = true;
+           lessonFiftyTwoButton.IsVisible = true;
+           lessonFiftyThreeButton.IsVisible = true;
+           lessonFiftyFourButton.IsVisible = true;
+           lessonFiftyFiveButton.IsVisible = true;
+           lessonFiftySixButton.IsVisible = true;
+           lessonFiftySevenButton.IsVisible = true;
+           lessonFiftyEightButton.IsVisible = true;
+        }
+
+        if (onText && onCourseFive)
+        {
+           goBackArrow.IsVisible = true;
+           lessonsLabel.IsVisible = true;
+
+           lessonContent.IsVisible = false;
+
+           lessonFiftyNineButton.IsVisible = true;
+           lessonSixtyButton.IsVisible = true;
+           lessonSixtyOneButton.IsVisible = true;
+           lessonSixtyTwoButton.IsVisible = true;
+           lessonSixtyThreeButton.IsVisible = true;
+           lessonSixtyFourButton.IsVisible = true;
+
+        }
+        
+        if (onText && onCourseSix)
+        {
+           goBackArrow.IsVisible = true;
+           lessonsLabel.IsVisible = true;
+
+           lessonContent.IsVisible = false;
+
+           lessonSixtyFiveButton.IsVisible = true;
+           lessonSixtySixButton.IsVisible = true;
+           lessonSixtySevenButton.IsVisible = true;
+           lessonSixtyEightButton.IsVisible = true;
+           lessonSixtyNineButton.IsVisible = true;
+           lessonSeventyButton.IsVisible = true;
+           lessonSeventyOneButton.IsVisible = true;
+           lessonSeventyTwoButton.IsVisible = true;
+        }
+
+        if (onText && onCourseSeven)
+        {
+           goBackArrow.IsVisible = true;
+           lessonsLabel.IsVisible = true;
+
+           lessonContent.IsVisible = false;
+
+           lessonSeventyThreeButton.IsVisible = true;
+           lessonSeventyFourButton.IsVisible = true;
+           lessonSeventyFiveButton.IsVisible = true;
+           lessonSeventySixButton.IsVisible = true;
+           lessonSeventySevenButton.IsVisible = true;
+           lessonSeventyEightButton.IsVisible = true;
+           lessonSeventyNineButton.IsVisible = true;
+           lessonEightyButton.IsVisible = true;
+           lessonEightyOneButton.IsVisible = true;
+           lessonEigthyTwoButton.IsVisible = true;
+           lessonEightyThreeButton.IsVisible = true;
+        }
+
+        if (onText && onCourseEight)
+        {
+           goBackArrow.IsVisible = true;
+           lessonsLabel.IsVisible = true;
+
+           lessonContent.IsVisible = false;
+
+           lessonEightyFourButton.IsVisible = true;
+           lessonEightyFiveButton.IsVisible = true;
+           lessonEightySixButton.IsVisible = true;
+           lessonEightySevenButton.IsVisible = true;
+           lessonEightyEightButton.IsVisible = true;
+           lessonEightyNineButton.IsVisible = true;
+           lessonNinetyButton.IsVisible = true;
+        }
+
+        if (onText && onCourseNine)
+        {
+           goBackArrow.IsVisible = true;
+           lessonsLabel.IsVisible = true;
+
+           lessonContent.IsVisible = false;
+
+           lessonNinetyOneButton.IsVisible = true;
+           lessonNinetyTwoButton.IsVisible = true;
+           lessonNinetyThreeButton.IsVisible = true;
+           lessonNinetyFourButton.IsVisible = true;
+           lessonNinetyFiveButton.IsVisible = true;
+           lessonNinetySixButton.IsVisible = true;
+           lessonNinetySevenButton.IsVisible = true;
+        }
+
+        if (onText && onCourseTen)
+        {
+           goBackArrow.IsVisible = true;
+           lessonsLabel.IsVisible = true;
+
+           lessonContent.IsVisible = false;
+
+           lessonNinetyEightButton.IsVisible = true;
+           lessonNinetyNineButton.IsVisible = true;
+           lessonOneHundredButton.IsVisible = true;
+           lessonOneHundredOneButton.IsVisible = true;
+           lessonOneHundredTwoButton.IsVisible = true;
+           lessonOneHundredThreeButton.IsVisible = true;
+           lessonOneHundredFourButton.IsVisible = true;
+           lessonOneHundredFiveButton.IsVisible = true;
+           lessonOneHundredSixButton.IsVisible = true;
+           lessonOneHundredSevenButton.IsVisible = true;
+           lessonOneHundredEightButton.IsVisible = true;
+           lessonOneHundredNineButton.IsVisible = true;
+           lessonOneHundredNineExtraButton.IsVisible = true;
+        }
+
+        if (onText && onCourseEleven)
+        {
+           goBackArrow.IsVisible = true;
+           lessonsLabel.IsVisible = true;
+
+           lessonContent.IsVisible = false;
+
+           lessonOneHundredTenButton.IsVisible = true;
+           lessonOneHundredElevenButton.IsVisible = true;
+           lessonOneHundredTwelveButton.IsVisible = true;
+           lessonOneHundredThirteenButton.IsVisible = true;
+           lessonOneHundredFourteenButton.IsVisible = true;
+        }
+
+        if (onText && onCourseTwelve)
+        {
+           goBackArrow.IsVisible = true;
+           lessonsLabel.IsVisible = true;
+
+           lessonContent.IsVisible = false;
+
+           lessonOneHundredFifteenButton.IsVisible = true;
+           lessonOneHundredSixteenButton.IsVisible = true;
+           lessonOneHundredSeventeenButton.IsVisible = true;
+           lessonOneHundredEighteenButton.IsVisible = true;
+           lessonOneHundredNineteenButton.IsVisible = true;
+           lessonOneHundredTwentyButton.IsVisible = true;
+        }
+
+        if (onText && onCourseThirteen)
+        {
+           goBackArrow.IsVisible = true;
+           lessonsLabel.IsVisible = true;
+
+           lessonContent.IsVisible = false;
+
+           lessonOneHundredTwentyOneButton.IsVisible = true;
+           lessonOneHundredTwentyTwoButton.IsVisible = true;
+           lessonOneHundredTwentyThreeButton.IsVisible = true;
+           lessonOneHundredTwentyFourButton.IsVisible = true;
+           lessonOneHundredTwentyFiveButton.IsVisible = true;
+           lessonOneHundredTwentySixButton.IsVisible = true;
+           lessonOneHundredTwentySevenButton.IsVisible = true;
+        }
+
+        if (onText && onCourseFourteen)
+        {
+           goBackArrow.IsVisible = true;
+           lessonsLabel.IsVisible = true;
+
+           lessonContent.IsVisible = false;
+
+           lessonOneHundredTwentyEightButton.IsVisible = true;
+           lessonOneHundredTwentyNineButton.IsVisible = true;
+           lessonOneHundredThirtyButton.IsVisible = true;
+           lessonOneHundredThirtyOneButton.IsVisible = true;
+           lessonOneHundredThirtyTwoButton.IsVisible = true;
+           lessonOneHundredThirtyThreeButton.IsVisible = true;
+           lessonOneHundredThirtyFourButton.IsVisible = true;
+           lessonOneHundredThirtyFiveButton.IsVisible = true;
+        }
+
+        if (onText && onCourseFifteen)
+        {
+           goBackArrow.IsVisible = true;
+           lessonsLabel.IsVisible = true;
+
+           lessonContent.IsVisible = false;
+
+           lessonOneHundredThirtySixButton.IsVisible = true;
+           lessonOneHundredThirtySevenButton.IsVisible = true;
+           lessonOneHundredThirtyEightButton.IsVisible = true;
+           lessonOneHundredThirtyNineButton.IsVisible = true;
+           lessonOneHundredFortyButton.IsVisible = true;
+           lessonOneHundredFortyOneButton.IsVisible = true;
+ 
+        }
+
+        if (onText && onCourseSixteen)
+        {
+           goBackArrow.IsVisible = true;
+           lessonsLabel.IsVisible = true;
+
+           lessonContent.IsVisible = false;
+
+           lessonOneHundredFortyTwoButton.IsVisible = true;
+           lessonOneHundredFortyThreeButton.IsVisible = true;
+           lessonOneHundredFortyFourButton.IsVisible = true;
+           lessonOneHundredFortyFiveButton.IsVisible = true;
+           lessonOneHundredFortySixButton.IsVisible = true;
+ 
+        }
+
+        if (onText && onCourseSeventeen)
+        {
+           goBackArrow.IsVisible = true;
+           lessonsLabel.IsVisible = true;
+
+           lessonContent.IsVisible = false;
+ 
+           lessonOneHundredFortySevenButton.IsVisible = true;
+           lessonOneHundredFortyEightButton.IsVisible = true;
+           lessonOneHundredFortyNineButton.IsVisible = true;
+           lessonOneHundredFiftyButton.IsVisible = true;
+           lessonOneHundredFiftyOneButton.IsVisible = true;
+           lessonOneHundredFiftyTwoButton.IsVisible = true;
+           lessonOneHundredFiftyThreeButton.IsVisible = true;
+           lessonOneHundredFiftyFourButton.IsVisible = true;
+           lessonOneHundredFiftyFiveButton.IsVisible = true;
+ 
+        }
+
+        if (onText && onCourseEighteen)
+        {
+           goBackArrow.IsVisible = true;
+           lessonsLabel.IsVisible = true;
+
+           lessonContent.IsVisible = false;
+
+           lessonOneHundredFiftySixButton.IsVisible = true;
+           lessonOneHundredFiftySevenButton.IsVisible = true;
+           lessonOneHundredFiftyEightButton.IsVisible = true;
+           lessonOneHundredFiftyNineButton.IsVisible = true;
+           lessonOneHundredSixtyButton.IsVisible = true;
+           lessonOneHundredSixtyOneButton.IsVisible = true;
+           lessonOneHundredSixtyTwoButton.IsVisible = true;
+ 
+        }
+        
+        if (onText && onCourseNineteen)
+        {
+           goBackArrow.IsVisible = true;
+           lessonsLabel.IsVisible = true;
+
+           lessonContent.IsVisible = false;
+
+           lessonOneHundredSixtyThreeButton.IsVisible = true;        
+           lessonOneHundredSixtyFourButton.IsVisible = true;        
+           lessonOneHundredSixtyFiveButton.IsVisible = true;        
+           lessonOneHundredSixtySixButton.IsVisible = true;        
+           lessonOneHundredSixtySevenButton.IsVisible = true;        
+           lessonOneHundredSixtyEightButton.IsVisible = true;        
+           lessonOneHundredSixtyNineButton.IsVisible = true;        
+        }
+
+        if (onText && onCourseTwenty)
+        {
+           goBackArrow.IsVisible = true;
+           lessonsLabel.IsVisible = true;
+
+           lessonContent.IsVisible = false;
+
+           lessonOneHundredSeventyButton.IsVisible = true;
+           lessonOneHundredSeventyOneButton.IsVisible = true;
+           lessonOneHundredSeventyTwoButton.IsVisible = true;
+           lessonOneHundredSeventyThreeButton.IsVisible = true;
+           lessonOneHundredSeventyFourButton.IsVisible = true;
+        }
+
+        if (onText && onCourseTwentyOne)
+        {
+           goBackArrow.IsVisible = true;
+           lessonsLabel.IsVisible = true;
+
+           lessonContent.IsVisible = false;
+
+           lessonOneHundredSeventyFiveButton.IsVisible = true;
+           lessonOneHundredSeventySixButton.IsVisible = true;
+           lessonOneHundredSeventySevenButton.IsVisible = true;
+           lessonOneHundredSeventyEightButton.IsVisible = true;
+           lessonOneHundredSeventyNineButton.IsVisible = true;
+        }
+
+        if (onText && onCourseTwentyTwo)
+        {
+           goBackArrow.IsVisible = true;
+           lessonsLabel.IsVisible = true;
+
+           lessonContent.IsVisible = false;
+
+           lessonOneHundredEightyButton.IsVisible = true;
+           lessonOneHundredEightyOneButton.IsVisible = true;
+           lessonOneHundredEightyTwoButton.IsVisible = true;
+           lessonOneHundredEightyThreeButton.IsVisible = true;
+           lessonOneHundredEightyFourButton.IsVisible = true;
+           lessonOneHundredEightyFiveButton.IsVisible = true;
+        }
+
 
     }
 
@@ -419,6 +833,30 @@ public partial class MainWindow : Window
         coursesLabel.IsVisible=false;
         lessonsLabel.IsVisible=true;
 
+        onCourseOne = true;
+        onCourseTwo = false;
+        onCourseThree = false;
+        onCourseFour = false;
+        onCourseFive = false;
+        onCourseSix = false;
+        onCourseSeven = false;
+        onCourseEight = false;
+        onCourseNine = false;
+        onCourseTen = false;
+        onCourseEleven = false;
+        onCourseTwelve = false; 
+        onCourseThirteen = false;
+        onCourseFourteen = false;
+        onCourseFifteen = false;
+        onCourseSixteen = false;
+        onCourseSeventeen = false;
+        onCourseEighteen = false;
+        onCourseNineteen = false;
+        onCourseTwenty = false;
+        onCourseTwentyOne = false;
+        onCourseTwentyTwo = false;
+
+
         courseOneButton.IsVisible=false;
         courseTwoButton.IsVisible=false;
         courseThreeButton.IsVisible=false;
@@ -444,6 +882,30 @@ public partial class MainWindow : Window
     {
         coursesLabel.IsVisible=false;
         lessonsLabel.IsVisible=true;
+
+        onCourseOne = false;
+        onCourseTwo = true;
+        onCourseThree = false;
+        onCourseFour = false;
+        onCourseFive = false;
+        onCourseSix = false;
+        onCourseSeven = false;
+        onCourseEight = false;
+        onCourseNine = false;
+        onCourseTen = false;
+        onCourseEleven = false;
+        onCourseTwelve = false;
+        onCourseThirteen = false;
+        onCourseFourteen = false;
+        onCourseFifteen = false;
+        onCourseSixteen = false;
+        onCourseSeventeen = false;
+        onCourseEighteen = false;
+        onCourseNineteen = false;
+        onCourseTwenty = false;
+        onCourseTwentyOne = false;
+        onCourseTwentyTwo = false;
+
 
         courseOneButton.IsVisible=false;
         courseTwoButton.IsVisible=false;
@@ -480,6 +942,30 @@ public partial class MainWindow : Window
         coursesLabel.IsVisible=false;
         lessonsLabel.IsVisible=true;
 
+        onCourseOne = false;
+        onCourseTwo = false;
+        onCourseThree = true;
+        onCourseFour = false;
+        onCourseFive = false;
+        onCourseSix = false;
+        onCourseSeven = false;
+        onCourseEight = false;
+        onCourseNine = false;
+        onCourseTen = false;
+        onCourseEleven = false;
+        onCourseTwelve = false;
+        onCourseThirteen = false;
+        onCourseFourteen = false;
+        onCourseFifteen = false;
+        onCourseSixteen = false;
+        onCourseSeventeen = false;
+        onCourseEighteen = false;
+        onCourseNineteen = false;
+        onCourseTwenty = false;
+        onCourseTwentyOne = false;
+        onCourseTwentyTwo = false;
+
+
         courseOneButton.IsVisible=false;
         courseTwoButton.IsVisible=false;
         courseThreeButton.IsVisible=false;
@@ -512,6 +998,30 @@ public partial class MainWindow : Window
         coursesLabel.IsVisible=false;
         lessonsLabel.IsVisible=true;
 
+        onCourseOne = false;
+        onCourseTwo = false;
+        onCourseThree = false;
+        onCourseFour = true;
+        onCourseFive = false;
+        onCourseSix = false;
+        onCourseSeven = false;
+        onCourseEight = false;
+        onCourseNine = false;
+        onCourseTen = false;
+        onCourseEleven = false;
+        onCourseTwelve = false;
+        onCourseThirteen = false;
+        onCourseFourteen = false;
+        onCourseFifteen = false;
+        onCourseSixteen = false;
+        onCourseSeventeen = false;
+        onCourseEighteen = false;
+        onCourseNineteen = false;
+        onCourseTwenty = false;
+        onCourseTwentyOne = false;
+        onCourseTwentyTwo = false;
+
+
         courseOneButton.IsVisible=false;
         courseTwoButton.IsVisible=false;
         courseThreeButton.IsVisible=false;
@@ -541,6 +1051,30 @@ public partial class MainWindow : Window
         coursesLabel.IsVisible=false;
         lessonsLabel.IsVisible=true;
 
+        onCourseOne = false;
+        onCourseTwo = false;
+        onCourseThree = false;
+        onCourseFour = false;
+        onCourseFive = true;
+        onCourseSix = false;
+        onCourseSeven = false;
+        onCourseEight = false;
+        onCourseNine = false;
+        onCourseTen = false;
+        onCourseEleven = false;
+        onCourseTwelve = false;
+        onCourseThirteen = false;
+        onCourseFourteen = false;
+        onCourseFifteen = false;
+        onCourseSixteen = false;
+        onCourseSeventeen = false;
+        onCourseEighteen = false;
+        onCourseNineteen = false;
+        onCourseTwenty = false;
+        onCourseTwentyOne = false;
+        onCourseTwentyTwo = false;
+
+
         courseOneButton.IsVisible=false;
         courseTwoButton.IsVisible=false;
         courseThreeButton.IsVisible=false;
@@ -562,6 +1096,30 @@ public partial class MainWindow : Window
     {
         coursesLabel.IsVisible=false;
         lessonsLabel.IsVisible=true;
+
+        onCourseOne = false;
+        onCourseTwo = false;
+        onCourseThree = false;
+        onCourseFour = false;
+        onCourseFive = false;
+        onCourseSix = true;
+        onCourseSeven = false;
+        onCourseEight = false;
+        onCourseNine = false;
+        onCourseTen = false;
+        onCourseEleven = false;
+        onCourseTwelve = false;
+        onCourseThirteen = false;
+        onCourseFourteen = false;
+        onCourseFifteen = false;
+        onCourseSixteen = false;
+        onCourseSeventeen = false;
+        onCourseEighteen = false;
+        onCourseNineteen = false;
+        onCourseTwenty = false;
+        onCourseTwentyOne = false;
+        onCourseTwentyTwo = false;
+
 
         courseOneButton.IsVisible=false;
         courseTwoButton.IsVisible=false;
@@ -586,6 +1144,30 @@ public partial class MainWindow : Window
     {
         coursesLabel.IsVisible=false;
         lessonsLabel.IsVisible=true;
+
+        onCourseOne = false;
+        onCourseTwo = false;
+        onCourseThree = false;
+        onCourseFour = false;
+        onCourseFive = false;
+        onCourseSix = false;
+        onCourseSeven = true;
+        onCourseEight = false;
+        onCourseNine = false;
+        onCourseTen = false;
+        onCourseEleven = false;
+        onCourseTwelve = false;
+        onCourseThirteen = false;
+        onCourseFourteen = false;
+        onCourseFifteen = false;
+        onCourseSixteen = false;
+        onCourseSeventeen = false;
+        onCourseEighteen = false;
+        onCourseNineteen = false;
+        onCourseTwenty = false;
+        onCourseTwentyOne = false;
+        onCourseTwentyTwo = false;
+
 
         courseOneButton.IsVisible=false;
         courseTwoButton.IsVisible=false;
@@ -614,6 +1196,30 @@ public partial class MainWindow : Window
         coursesLabel.IsVisible=false;
         lessonsLabel.IsVisible=true;
 
+        onCourseOne = false;
+        onCourseTwo = false;
+        onCourseThree = false;
+        onCourseFour = false;
+        onCourseFive = false;
+        onCourseSix = false;
+        onCourseSeven = false;
+        onCourseEight = true;
+        onCourseNine = false;
+        onCourseTen = false;
+        onCourseEleven = false;
+        onCourseTwelve = false;
+        onCourseThirteen = false;
+        onCourseFourteen = false;
+        onCourseFifteen = false;
+        onCourseSixteen = false;
+        onCourseSeventeen = false;
+        onCourseEighteen = false;
+        onCourseNineteen = false;
+        onCourseTwenty = false;
+        onCourseTwentyOne = false;
+        onCourseTwentyTwo = false;
+
+
         courseOneButton.IsVisible=false;
         courseTwoButton.IsVisible=false;
         courseThreeButton.IsVisible=false;
@@ -639,6 +1245,30 @@ public partial class MainWindow : Window
         coursesLabel.IsVisible=false;
         lessonsLabel.IsVisible=true;
 
+        onCourseOne = false;
+        onCourseTwo = false;
+        onCourseThree = false;
+        onCourseFour = false;
+        onCourseFive = false;
+        onCourseSix = false;
+        onCourseSeven = false;
+        onCourseEight = false;
+        onCourseNine = true;
+        onCourseTen = false;
+        onCourseEleven = false;
+        onCourseTwelve = false;
+        onCourseThirteen = false;
+        onCourseFourteen = false;
+        onCourseFifteen = false;
+        onCourseSixteen = false;
+        onCourseSeventeen = false;
+        onCourseEighteen = false;
+        onCourseNineteen = false;
+        onCourseTwenty = false;
+        onCourseTwentyOne = false;
+        onCourseTwentyTwo = false;
+
+
         courseNineButton.IsVisible=false;
         courseTenButton.IsVisible=false;
         courseElevenButton.IsVisible=false;
@@ -660,6 +1290,30 @@ public partial class MainWindow : Window
     {
         coursesLabel.IsVisible=false;
         lessonsLabel.IsVisible=true;
+
+        onCourseOne = false;
+        onCourseTwo = false;
+        onCourseThree = false;
+        onCourseFour = false;
+        onCourseFive = false;
+        onCourseSix = false;
+        onCourseSeven = false;
+        onCourseEight = false;
+        onCourseNine = false;
+        onCourseTen = true;
+        onCourseEleven = false;
+        onCourseTwelve = false;
+        onCourseThirteen = false;
+        onCourseFourteen = false;
+        onCourseFifteen = false;
+        onCourseSixteen = false;
+        onCourseSeventeen = false;
+        onCourseEighteen = false;
+        onCourseNineteen = false;
+        onCourseTwenty = false;
+        onCourseTwentyOne = false;
+        onCourseTwentyTwo = false;
+
 
         courseNineButton.IsVisible=false;
         courseTenButton.IsVisible=false;
@@ -690,6 +1344,30 @@ public partial class MainWindow : Window
         coursesLabel.IsVisible=false;
         lessonsLabel.IsVisible=true;
 
+        onCourseOne = false;
+        onCourseTwo = false;
+        onCourseThree = false;
+        onCourseFour = false;
+        onCourseFive = false;
+        onCourseSix = false;
+        onCourseSeven = false;
+        onCourseEight = false;
+        onCourseNine = false;
+        onCourseTen = false;
+        onCourseEleven = true;
+        onCourseTwelve = false;
+        onCourseThirteen = false;
+        onCourseFourteen = false;
+        onCourseFifteen = false;
+        onCourseSixteen = false;
+        onCourseSeventeen = false;
+        onCourseEighteen = false;
+        onCourseNineteen = false;
+        onCourseTwenty = false;
+        onCourseTwentyOne = false;
+        onCourseTwentyTwo = false;
+
+
         courseNineButton.IsVisible=false;
         courseTenButton.IsVisible=false;
         courseElevenButton.IsVisible=false;
@@ -709,6 +1387,30 @@ public partial class MainWindow : Window
     {
         coursesLabel.IsVisible=false;
         lessonsLabel.IsVisible=true;
+
+        onCourseOne = false;
+        onCourseTwo = false;
+        onCourseThree = false;
+        onCourseFour = false;
+        onCourseFive = false;
+        onCourseSix = false;
+        onCourseSeven = false;
+        onCourseEight = false;
+        onCourseNine = false;
+        onCourseTen = false;
+        onCourseEleven = false;
+        onCourseTwelve = true;
+        onCourseThirteen = false;
+        onCourseFourteen = false;
+        onCourseFifteen = false;
+        onCourseSixteen = false;
+        onCourseSeventeen = false;
+        onCourseEighteen = false;
+        onCourseNineteen = false;
+        onCourseTwenty = false;
+        onCourseTwentyOne = false;
+        onCourseTwentyTwo = false;
+
 
         courseNineButton.IsVisible=false;
         courseTenButton.IsVisible=false;
@@ -731,6 +1433,30 @@ public partial class MainWindow : Window
         coursesLabel.IsVisible=false;
         lessonsLabel.IsVisible=true;
 
+        onCourseOne = false;
+        onCourseTwo = false;
+        onCourseThree = false;
+        onCourseFour = false;
+        onCourseFive = false;
+        onCourseSix = false;
+        onCourseSeven = false;
+        onCourseEight = false;
+        onCourseNine = false;
+        onCourseTen = false;
+        onCourseEleven = false;
+        onCourseTwelve = false;
+        onCourseThirteen = true;
+        onCourseFourteen = false;
+        onCourseFifteen = false;
+        onCourseSixteen = false;
+        onCourseSeventeen = false;
+        onCourseEighteen = false;
+        onCourseNineteen = false;
+        onCourseTwenty = false;
+        onCourseTwentyOne = false;
+        onCourseTwentyTwo = false;
+
+
         courseNineButton.IsVisible=false;
         courseTenButton.IsVisible=false;
         courseElevenButton.IsVisible=false;
@@ -752,6 +1478,30 @@ public partial class MainWindow : Window
     {
         coursesLabel.IsVisible=false;
         lessonsLabel.IsVisible=true;
+
+        onCourseOne = false;
+        onCourseTwo = false;
+        onCourseThree = false;
+        onCourseFour = false;
+        onCourseFive = false;
+        onCourseSix = false;
+        onCourseSeven = false;
+        onCourseEight = false;
+        onCourseNine = false;
+        onCourseTen = false;
+        onCourseEleven = false;
+        onCourseTwelve = false;
+        onCourseThirteen = false;
+        onCourseFourteen = true;
+        onCourseFifteen = false;
+        onCourseSixteen = false;
+        onCourseSeventeen = false;
+        onCourseEighteen = false;
+        onCourseNineteen = false;
+        onCourseTwenty = false;
+        onCourseTwentyOne = false;
+        onCourseTwentyTwo = false;
+
 
         courseNineButton.IsVisible=false;
         courseTenButton.IsVisible=false;
@@ -776,6 +1526,30 @@ public partial class MainWindow : Window
         coursesLabel.IsVisible=false;
         lessonsLabel.IsVisible=true;
 
+        onCourseOne = false;
+        onCourseTwo = false;
+        onCourseThree = false;
+        onCourseFour = false;
+        onCourseFive = false;
+        onCourseSix = false;
+        onCourseSeven = false;
+        onCourseEight = false;
+        onCourseNine = false;
+        onCourseTen = false;
+        onCourseEleven = false;
+        onCourseTwelve = false;
+        onCourseThirteen = false;
+        onCourseFourteen = false;
+        onCourseFifteen = true;
+        onCourseSixteen = false;
+        onCourseSeventeen = false;
+        onCourseEighteen = false;
+        onCourseNineteen = false;
+        onCourseTwenty = false;
+        onCourseTwentyOne = false;
+        onCourseTwentyTwo = false;
+
+
         courseNineButton.IsVisible=false;
         courseTenButton.IsVisible=false;
         courseElevenButton.IsVisible=false;
@@ -799,6 +1573,30 @@ public partial class MainWindow : Window
         coursesLabel.IsVisible=false;
         lessonsLabel.IsVisible=true;
         
+        onCourseOne = false;
+        onCourseTwo = false;
+        onCourseThree = false;
+        onCourseFour = false;
+        onCourseFive = false;
+        onCourseSix = false;
+        onCourseSeven = false;
+        onCourseEight = false;
+        onCourseNine = false;
+        onCourseTen = false;
+        onCourseEleven = false;
+        onCourseTwelve = false;
+        onCourseThirteen = false;
+        onCourseFourteen = false;
+        onCourseFifteen = false;
+        onCourseSixteen = true;
+        onCourseSeventeen = false;
+        onCourseEighteen = false;
+        onCourseNineteen = false;
+        onCourseTwenty = false;
+        onCourseTwentyOne = false;
+        onCourseTwentyTwo = false;
+
+
         courseSixteenButton.IsVisible=false;
         courseSeventeenButton.IsVisible=false;
         courseEighteenButton.IsVisible=false;
@@ -820,6 +1618,30 @@ public partial class MainWindow : Window
         coursesLabel.IsVisible=false;
         lessonsLabel.IsVisible=true;
         
+        onCourseOne = false;
+        onCourseTwo = false;
+        onCourseThree = false;
+        onCourseFour = false;
+        onCourseFive = false;
+        onCourseSix = false;
+        onCourseSeven = false;
+        onCourseEight = false;
+        onCourseNine = false;
+        onCourseTen = false;
+        onCourseEleven = false;
+        onCourseTwelve = false;
+        onCourseThirteen = false;
+        onCourseFourteen = false;
+        onCourseFifteen = false;
+        onCourseSixteen = false;
+        onCourseSeventeen = true;
+        onCourseEighteen = false;
+        onCourseNineteen = false;
+        onCourseTwenty = false;
+        onCourseTwentyOne = false;
+        onCourseTwentyTwo = false;
+
+
         courseSixteenButton.IsVisible=false;
         courseSeventeenButton.IsVisible=false;
         courseEighteenButton.IsVisible=false;
@@ -844,6 +1666,30 @@ public partial class MainWindow : Window
         coursesLabel.IsVisible=false;
         lessonsLabel.IsVisible=true;
         
+        onCourseOne = false;
+        onCourseTwo = false;
+        onCourseThree = false;
+        onCourseFour = false;
+        onCourseFive = false;
+        onCourseSix = false;
+        onCourseSeven = false;
+        onCourseEight = false;
+        onCourseNine = false;
+        onCourseTen = false;
+        onCourseEleven = false;
+        onCourseTwelve = false;
+        onCourseThirteen = false;
+        onCourseFourteen = false;
+        onCourseFifteen = false;
+        onCourseSixteen = false;
+        onCourseSeventeen = false;
+        onCourseEighteen = true;
+        onCourseNineteen = false;
+        onCourseTwenty = false;
+        onCourseTwentyOne = false;
+        onCourseTwentyTwo = false;
+
+
         courseSixteenButton.IsVisible=false;
         courseSeventeenButton.IsVisible=false;
         courseEighteenButton.IsVisible=false;
@@ -866,6 +1712,30 @@ public partial class MainWindow : Window
         coursesLabel.IsVisible=false;
         lessonsLabel.IsVisible=true;
         
+        onCourseOne = false;
+        onCourseTwo = false;
+        onCourseThree = false;
+        onCourseFour = false;
+        onCourseFive = false;
+        onCourseSix = false;
+        onCourseSeven = false;
+        onCourseEight = false;
+        onCourseNine = false;
+        onCourseTen = false;
+        onCourseEleven = false;
+        onCourseTwelve = false;
+        onCourseThirteen = false;
+        onCourseFourteen = false;
+        onCourseFifteen = false;
+        onCourseSixteen = false;
+        onCourseSeventeen = false;
+        onCourseEighteen = false;
+        onCourseNineteen = true;
+        onCourseTwenty = false;
+        onCourseTwentyOne = false;
+        onCourseTwentyTwo = false;
+
+
         courseSixteenButton.IsVisible=false;
         courseSeventeenButton.IsVisible=false;
         courseEighteenButton.IsVisible=false;
@@ -888,6 +1758,30 @@ public partial class MainWindow : Window
         coursesLabel.IsVisible=false;
         lessonsLabel.IsVisible=true;
         
+        onCourseOne = false;
+        onCourseTwo = false;
+        onCourseThree = false;
+        onCourseFour = false;
+        onCourseFive = false;
+        onCourseSix = false;
+        onCourseSeven = false;
+        onCourseEight = false;
+        onCourseNine = false;
+        onCourseTen = false;
+        onCourseEleven = false;
+        onCourseTwelve = false;
+        onCourseThirteen = false;
+        onCourseFourteen = false;
+        onCourseFifteen = false;
+        onCourseSixteen = false;
+        onCourseSeventeen = false;
+        onCourseEighteen = false;
+        onCourseNineteen = false;
+        onCourseTwenty = true;
+        onCourseTwentyOne = false;
+        onCourseTwentyTwo = false;
+
+
         courseSixteenButton.IsVisible=false;
         courseSeventeenButton.IsVisible=false;
         courseEighteenButton.IsVisible=false;
@@ -908,6 +1802,30 @@ public partial class MainWindow : Window
         coursesLabel.IsVisible=false;
         lessonsLabel.IsVisible=true;
         
+        onCourseOne = false;
+        onCourseTwo = false;
+        onCourseThree = false;
+        onCourseFour = false;
+        onCourseFive = false;
+        onCourseSix = false;
+        onCourseSeven = false;
+        onCourseEight = false;
+        onCourseNine = false;
+        onCourseTen = false;
+        onCourseEleven = false;
+        onCourseTwelve = false;
+        onCourseThirteen = false;
+        onCourseFourteen = false;
+        onCourseFifteen = false;
+        onCourseSixteen = false;
+        onCourseSeventeen = false;
+        onCourseEighteen = false;
+        onCourseNineteen = false;
+        onCourseTwenty = false;
+        onCourseTwentyOne = true;
+        onCourseTwentyTwo = false;
+
+
         courseSixteenButton.IsVisible=false;
         courseSeventeenButton.IsVisible=false;
         courseEighteenButton.IsVisible=false;
@@ -928,6 +1846,30 @@ public partial class MainWindow : Window
         coursesLabel.IsVisible=false;
         lessonsLabel.IsVisible=true;
         
+        onCourseOne = false;
+        onCourseTwo = false;
+        onCourseThree = false;
+        onCourseFour = false;
+        onCourseFive = false;
+        onCourseSix = false;
+        onCourseSeven = false;
+        onCourseEight = false;
+        onCourseNine = false;
+        onCourseTen = false;
+        onCourseEleven = false;
+        onCourseTwelve = false;
+        onCourseThirteen = false;
+        onCourseFourteen = false;
+        onCourseFifteen = false;
+        onCourseSixteen = false;
+        onCourseSeventeen = false;
+        onCourseEighteen = false;
+        onCourseNineteen = false;
+        onCourseTwenty = false;
+        onCourseTwentyOne = false;
+        onCourseTwentyTwo = true;
+
+
         courseSixteenButton.IsVisible=false;
         courseSeventeenButton.IsVisible=false;
         courseEighteenButton.IsVisible=false;

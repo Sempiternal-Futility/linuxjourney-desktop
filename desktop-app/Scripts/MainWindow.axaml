@@ -22,7 +22,7 @@
           <Label Name="lessonsLabel" Content="Lessons" IsVisible="false" Background="#181A1B" Foreground="#40BF91" FontSize="55" Margin="-23, -185, 0, 0"/>
 
 
-          <Button Name="goBackArrow" IsVisible="false" Content="BACK" Click="goBackArrow_Click" Background="#181A1B" Foreground="#40BF91" Margin="-150, 0, 250, 0" />
+          <Button Name="goBackArrow" IsVisible="false" Content="BACK" Click="goBackArrow_Click" Background="#181A1B" Foreground="#40BF91" Margin="-100, 0, 250, 0" />
 
 
 
