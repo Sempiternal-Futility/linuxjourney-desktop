@@ -7,7 +7,7 @@ This was made with c# and avalonia
 
 
 # How To Run The Program
-If you're on binbows, open the desktop-app folder, then open the Program folder, then look for the .exe file and execute it!
+If you're on Windows, open the desktop-app folder, then open the Program folder, then look for the .exe file and execute it!
 
 If you're on linux, install dotnet 6, open your terminal emulator of choice, then open the desktop-app folder, then open the Scripts folder, and run the command "dotnet run"
 
